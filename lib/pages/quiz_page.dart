@@ -5,6 +5,14 @@ import './../utils/quiz.dart';
 import './../UI/answer_button.dart';
 import './../UI/kanji_text.dart';
 import './../UI/overlay_answer.dart';
+import './../UI/overlay_loading.dart';
+import './../UI/overlay_finished.dart';
+
+import './landing_page.dart';
+
+import 'dart:async' show Future;
+import 'package:flutter/services.dart' show rootBundle;
+import 'dart:convert';
 
 class QuizPage extends StatefulWidget {
   @override
@@ -14,112 +22,142 @@ class QuizPage extends StatefulWidget {
 class QuizPageState extends State<QuizPage> {
   bool overlayVisible = false;
   bool answer = true;
+  bool isLoading = true;
+  int score = 0;
   String kanji;
   Kanji currentKanji;
 
-  Quiz myQuiz = new Quiz([
-    new Kanji("赤", "あか", "red"),
-    new Kanji("仕事", "しごと", "work"),
-    new Kanji("英語", "えいご", "english"),
-    new Kanji("手紙", "てがみ", "letter"),
-    new Kanji("電話", "でんわ", "telephone"),
-    new Kanji("病気", "びょうき", "illness"),
-    new Kanji("結婚", "けっこん", "marriage"),
-    new Kanji("旅行", "りょこう", "travel"),
-    new Kanji("映画", "えいが", "movie"),
-    new Kanji("家族", "かぞく", "family")
-  ]);
+  Quiz myQuiz = new Quiz([]); // List to keep all kanjis
 
-  List<Kanji> answers = new List();
+  List<Kanji> answers =
+      new List(); //List to keep all the answers for this question
+
+  // Load the JSON file
+  Future loadStudent() async {
+    String jsonString = await rootBundle.loadString('assets/kanji_n5.json');
+    ;
+    final jsonResponse = json.decode(jsonString);
+    return jsonResponse;
+  }
 
   @override
   void initState() {
-    super.initState();
-    currentKanji = myQuiz.nextKanji;
-    kanji = currentKanji.kanji;
-    createAnswers();
+    loadStudent().then((onValue) {
+      // once Json file loaded create the new Quiz object
+      myQuiz = Quiz.fromJson(onValue);
+      currentKanji = myQuiz.nextKanji;
+      kanji = currentKanji.kanji;
+
+      createAnswers();
+      this.setState(
+          () => this.isLoading = false); // Replace loading layer by quiz layer
+      super.initState();
+    });
   }
 
   void createAnswers() {
-    // create a set of random answers
-    answers.clear();
-    answers.add(currentKanji); // add the correct answer
+    List<Kanji> newAnswers = new List(); // create new list of answers
+    newAnswers.add(currentKanji); // add the correct answer
+    // create a list of random kanjis answer
     List<Kanji> temp = myQuiz.kanjis;
     temp.shuffle();
     int i = 0;
-    while (answers.length < 4) {
+    while (newAnswers.length < 4) {
       if (temp[i] != currentKanji) {
-        answers.add(temp[i]);
+        newAnswers.add(temp[i]);
       }
       i++;
     }
-    answers.shuffle();
+    newAnswers.shuffle();
+    answers = newAnswers;
   }
 
   @override
   Widget build(BuildContext context) {
-    return new Stack(
-      fit: StackFit.expand,
-      children: <Widget>[
-        new Column(
-          // main page
-          children: <Widget>[
-            Expanded(child: new KanjiText(kanji)),
-            new Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                new AnswerButton(answers[0].furigana, Colors.blueGrey, () {
-                  answer = false;
-                  print("Answer 1 clicked!");
-                  this.setState(() {
-                    answer = (answers[0] == currentKanji);
-                    overlayVisible = true;
-                  });
-                }),
-                new AnswerButton(answers[1].furigana, Colors.orangeAccent, () {
-                  answer = true;
-                  print("Answer 2 clicked!");
-                  this.setState(() {
-                    answer = (answers[1] == currentKanji);
-                    overlayVisible = true;
-                  });
-                }),
-              ],
-            ),
-            new Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                new AnswerButton(answers[2].furigana, Colors.greenAccent, () {
-                  answer = false;
-                  print("Answer 3 clicked!");
-                  this.setState(() {
-                    answer = (answers[2] == currentKanji);
-                    overlayVisible = true;
-                  });
-                }),
-                new AnswerButton(answers[3].furigana, Colors.blueAccent, () {
-                  answer = true;
-                  print("Answer 4 clicked!");
-                  this.setState(() {
-                    answer = (answers[3] == currentKanji);
-                    overlayVisible = true;
-                  });
-                }),
-              ],
-            ),
-          ],
-        ),
-        overlayVisible == true
-            ? new OverlayAnswer(answer, currentKanji, () {
-                this.setState(() {
-                  overlayVisible = false;
-                  currentKanji = myQuiz.nextKanji;
-                  kanji = currentKanji.kanji;
-                  createAnswers();
-                });
-              })
-            : new Container()
-      ],
-    );
+    return isLoading
+        ? new Stack(
+            fit: StackFit.expand, children: <Widget>[new OverlayLoading()])
+        : new Stack(
+            fit: StackFit.expand,
+            children: <Widget>[
+              new Column(
+                // main page
+                children: <Widget>[
+                  Expanded(child: new KanjiText(kanji)),
+                  new Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: <Widget>[
+                      new AnswerButton(answers[0].furigana, Colors.blueGrey,
+                          () {
+                        print("Answer 1 clicked!");
+                        this.setState(() {
+                          answer = (answers[0] == currentKanji);
+                          if (answer) score++;
+                          overlayVisible = true;
+                        });
+                      }),
+                      new AnswerButton(answers[1].furigana, Colors.orangeAccent,
+                          () {
+                        print("Answer 2 clicked!");
+                        this.setState(() {
+                          answer = (answers[1] == currentKanji);
+                          if (answer) score++;
+                          overlayVisible = true;
+                        });
+                      }),
+                    ],
+                  ),
+                  new Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: <Widget>[
+                      new AnswerButton(answers[2].furigana, Colors.greenAccent,
+                          () {
+                        print("Answer 3 clicked!");
+                        this.setState(() {
+                          answer = (answers[2] == currentKanji);
+                          if (answer) score++;
+                          overlayVisible = true;
+                        });
+                      }),
+                      new AnswerButton(answers[3].furigana, Colors.blueAccent,
+                          () {
+                        print("Answer 4 clicked!");
+                        this.setState(() {
+                          answer = (answers[3] == currentKanji);
+                          if (answer) score++;
+                          overlayVisible = true;
+                        });
+                      }),
+                    ],
+                  ),
+                ],
+              ),
+              overlayVisible == true
+                  ? new OverlayAnswer(answer, currentKanji, () {
+                      this.setState(() {
+                        overlayVisible = false;
+                        currentKanji = myQuiz.nextKanji;
+                        if (currentKanji == null) {
+                          // Display overlay finished at first
+                          Navigator.of(context).push(new MaterialPageRoute(
+                              builder: (BuildContext context) =>
+                                  new OverlayFinished(
+                                      score.toString() +
+                                          "/" +
+                                          myQuiz.kanjis.length.toString(), () {
+                                    // then on Tap return to the landing page
+                                    Navigator.of(context).push(
+                                        new MaterialPageRoute(
+                                            builder: (BuildContext context) =>
+                                                new LandingPage()));
+                                  })));
+                        }
+                        kanji = currentKanji.kanji;
+                        createAnswers();
+                      });
+                    })
+                  : new Container()
+            ],
+          );
   }
 }

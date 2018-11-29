@@ -9,6 +9,16 @@ class Quiz {
     _kanjis.shuffle();
   }
 
+  factory Quiz.fromJson(List<dynamic> parsedJson) {
+    List<Kanji> kanjis = new List<Kanji>();
+    for (int i = 0; i < parsedJson.length; i++) {
+      Kanji newKanji = new Kanji(parsedJson[i]['kanji'],
+          parsedJson[i]['furigana'], parsedJson[i]['translation']);
+      kanjis.add(newKanji);
+    }
+    return new Quiz(kanjis);
+  }
+
 // Getters
   List<Kanji> get kanjis => _kanjis;
   int get length => _kanjis.length;

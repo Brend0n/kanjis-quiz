@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 1,
+    "kanji": "玄関",
+    "furigana": "げんかん",
+    "translation": "entrance; front door;"
+  },
+  {
+    "_id": 2,
+    "kanji": "野菜",
+    "furigana": "やさい",
+    "translation": "vegetable"
+  },
+  {
+    "_id": 3,
+    "kanji": "家庭",
+    "furigana": "かてい",
+    "translation": "home; family; household​"
+  },
+  {
+    "_id": 4,
+    "kanji": "台所",
+    "furigana": "だいどころ",
+    "translation": "kitchen"
+  },
+  {
+    "_id": 5,
+    "kanji": "大人",
+    "furigana": "おとな",
+    "translation": "adult"
+  },
+  {
+    "_id": 6,
+    "kanji": "買い物",
+    "furigana": "かもの",
+    "translation": "shopping; purchased goods"
+  },
+  {
+    "_id": 7,
+    "kanji": "病院",
+    "furigana": "びょういん",
+    "translation": "hospital"
+  },
+  {
+    "_id": 8,
+    "kanji": "銀行",
+    "furigana": "ぎんこう",
+    "translation": "bank"
+  },
+  {
+    "_id": 9,
+    "kanji": "新聞",
+    "furigana": "しんぶん",
+    "translation": "newspaper"
+  },
+  {
+    "_id": 10,
+    "kanji": "花",
+    "furigana": "はな",
+    "translation": "flower; blossom; bloom; petal​"
+  },
+  {
+    "_id": 11,
+    "kanji": "家族",
+    "furigana": "かぞく",
+    "translation": "family; members of a family​"
+  },
+  {
+    "_id": 12,
+    "kanji": "映画",
+    "furigana": "えいが",
+    "translation": "movie; film​"
+  },
+  {
+    "_id": 13,
+    "kanji": "旅行",
+    "furigana": "りょこう",
+    "translation": "travel; trip; journey; excursion; tour​"
+  },
+  {
+    "_id": 14,
+    "kanji": "結婚",
+    "furigana": "けっこん",
+    "translation": "marriage"
+  },
+  {
+    "_id": 15,
+    "kanji": "病気",
+    "furigana": "びょうき",
+    "translation": "illness; disease; sickness​"
+  },
+  {
+    "_id": 16,
+    "kanji": "電話",
+    "furigana": "でんわ",
+    "translation": "telephone call; phone call​"
+  },
+  {
+    "_id": 17,
+    "kanji": "手紙",
+    "furigana": "てがみ",
+    "translation": "letter​"
+  },
+  {
+    "_id": 18,
+    "kanji": "英語",
+    "furigana": "えいご",
+    "translation": "English (language)​"
+  },
+  {
+    "_id": 19,
+    "kanji": "仕事",
+    "furigana": "しごと",
+    "translation": "work; job; business; occupation; employment; vocation; task​"
+  },
+  {
+    "_id": 20,
+    "kanji": "赤",
+    "furigana": "あか",
+    "translation": "red"
+  }
+]
