@@ -1,6 +1,6 @@
 # KANJI - Mobile Quiz Game
 
-[![N|Solid](https://github.com/Brend0n/kanjis-quiz/blob/master/graphics/flutter_logo.png?raw=true)](https://flutter.io)[![N|Solid](https://github.com/Brend0n/kanjis-quiz/blob/master/graphics/dart_logo.png?raw=true)](https://www.dartlang.org/)
+[![N|Solid](https://github.com/Brend0n/kanjis-quiz/blob/master/graphics/flutter_logo.png?raw=true)](https://flutter.io)
 
 ![Flutter Version](https://img.shields.io/badge/Flutter-1.0.1-green.svg) ![Dart Version](https://img.shields.io/badge/Dart-2.21.1-green.svg) [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
