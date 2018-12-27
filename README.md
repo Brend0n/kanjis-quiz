@@ -58,6 +58,10 @@ You can check if the Plugins are correctly working by:
 You need to either start an emulator (ios or android), or connect a phone with the developper mode enabled to your computer.
 You can check if you see the phone connected on the bottom right corner of the VSCode window. You can also click this area to start an emulator.
 
+```
+$ flutter run
+```
+
 # Data
 
 The data that this app uses to run, are sored in the JSON format and the files are accessible in the assets folder.
