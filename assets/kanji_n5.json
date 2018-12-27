@@ -1,122 +1,3530 @@
 [
-  {
-    "_id": 1,
-    "kanji": "玄関",
-    "furigana": "げんかん",
-    "translation": "entrance; front door;"
-  },
-  {
-    "_id": 2,
-    "kanji": "野菜",
-    "furigana": "やさい",
-    "translation": "vegetable"
-  },
-  {
-    "_id": 3,
-    "kanji": "家庭",
-    "furigana": "かてい",
-    "translation": "home; family; household​"
-  },
-  {
-    "_id": 4,
-    "kanji": "台所",
-    "furigana": "だいどころ",
-    "translation": "kitchen"
-  },
-  {
-    "_id": 5,
-    "kanji": "大人",
-    "furigana": "おとな",
-    "translation": "adult"
-  },
-  {
-    "_id": 6,
-    "kanji": "買い物",
-    "furigana": "かもの",
-    "translation": "shopping; purchased goods"
-  },
-  {
-    "_id": 7,
-    "kanji": "病院",
-    "furigana": "びょういん",
-    "translation": "hospital"
-  },
-  {
-    "_id": 8,
-    "kanji": "銀行",
-    "furigana": "ぎんこう",
-    "translation": "bank"
-  },
-  {
-    "_id": 9,
-    "kanji": "新聞",
-    "furigana": "しんぶん",
-    "translation": "newspaper"
-  },
-  {
-    "_id": 10,
-    "kanji": "花",
-    "furigana": "はな",
-    "translation": "flower; blossom; bloom; petal​"
-  },
-  {
-    "_id": 11,
-    "kanji": "家族",
-    "furigana": "かぞく",
-    "translation": "family; members of a family​"
-  },
-  {
-    "_id": 12,
-    "kanji": "映画",
-    "furigana": "えいが",
-    "translation": "movie; film​"
-  },
-  {
-    "_id": 13,
-    "kanji": "旅行",
-    "furigana": "りょこう",
-    "translation": "travel; trip; journey; excursion; tour​"
-  },
-  {
-    "_id": 14,
-    "kanji": "結婚",
-    "furigana": "けっこん",
-    "translation": "marriage"
-  },
-  {
-    "_id": 15,
-    "kanji": "病気",
-    "furigana": "びょうき",
-    "translation": "illness; disease; sickness​"
-  },
-  {
-    "_id": 16,
-    "kanji": "電話",
-    "furigana": "でんわ",
-    "translation": "telephone call; phone call​"
-  },
-  {
-    "_id": 17,
-    "kanji": "手紙",
-    "furigana": "てがみ",
-    "translation": "letter​"
-  },
-  {
-    "_id": 18,
-    "kanji": "英語",
-    "furigana": "えいご",
-    "translation": "English (language)​"
-  },
-  {
-    "_id": 19,
-    "kanji": "仕事",
-    "furigana": "しごと",
-    "translation": "work; job; business; occupation; employment; vocation; task​"
-  },
-  {
-    "_id": 20,
-    "kanji": "赤",
-    "furigana": "あか",
-    "translation": "red"
-  }
+    {
+        "_id": 1,
+        "kanji": "\u5b66\u6821",
+        "furigana": "\u304c\u3063\u3053\u3046",
+        "translation": "school"
+    },
+    {
+        "_id": 2,
+        "kanji": "\u5ddd",
+        "furigana": "\u304b\u308f",
+        "translation": "river; stream"
+    },
+    {
+        "_id": 3,
+        "kanji": "\u624b",
+        "furigana": "\u3066",
+        "translation": "hand; arm"
+    },
+    {
+        "_id": 4,
+        "kanji": "\u6238",
+        "furigana": "\u3068",
+        "translation": "door (esp. Japanese-style)"
+    },
+    {
+        "_id": 5,
+        "kanji": "\u773c\u93e1",
+        "furigana": "\u3081\u304c\u306d",
+        "translation": "glasses; eyeglasses; spectacles"
+    },
+    {
+        "_id": 6,
+        "kanji": "\u7159\u8349",
+        "furigana": "\u305f\u3070\u3053",
+        "translation": "tobacco; cigarette; cigaret; cigar"
+    },
+    {
+        "_id": 7,
+        "kanji": "\u8d64",
+        "furigana": "\u3042\u304b",
+        "translation": "red; crimson; scarlet"
+    },
+    {
+        "_id": 8,
+        "kanji": "\u4ed5\u4e8b",
+        "furigana": "\u3057\u3054\u3068",
+        "translation": "work; job; business; occupation; employment; vocation; task"
+    },
+    {
+        "_id": 9,
+        "kanji": "\u82f1\u8a9e",
+        "furigana": "\u3048\u3044\u3054",
+        "translation": "English (language)"
+    },
+    {
+        "_id": 10,
+        "kanji": "\u554f\u984c",
+        "furigana": "\u3082\u3093\u3060\u3044",
+        "translation": "question (e.g. on a test); problem"
+    },
+    {
+        "_id": 11,
+        "kanji": "\u90e8\u5c4b",
+        "furigana": "\u3078\u3084",
+        "translation": "room; chamber"
+    },
+    {
+        "_id": 12,
+        "kanji": "\u5b50\u4f9b",
+        "furigana": "\u3053\u3069\u3082",
+        "translation": "child"
+    },
+    {
+        "_id": 13,
+        "kanji": "\u6642\u9593",
+        "furigana": "\u3058\u304b\u3093",
+        "translation": "time"
+    },
+    {
+        "_id": 14,
+        "kanji": "\u96e8",
+        "furigana": "\u3042\u3081",
+        "translation": "rain"
+    },
+    {
+        "_id": 15,
+        "kanji": "\u5148\u751f",
+        "furigana": "\u305b\u3093\u305b\u3044",
+        "translation": "teacher; master; doctor"
+    },
+    {
+        "_id": 16,
+        "kanji": "\u5e74",
+        "furigana": "\u3068\u3057",
+        "translation": "year"
+    },
+    {
+        "_id": 17,
+        "kanji": "\u624b\u7d19",
+        "furigana": "\u3066\u304c\u307f",
+        "translation": "letter"
+    },
+    {
+        "_id": 18,
+        "kanji": "\u96fb\u8a71",
+        "furigana": "\u3067\u3093\u308f",
+        "translation": "telephone call; phone call"
+    },
+    {
+        "_id": 19,
+        "kanji": "\u6c34",
+        "furigana": "\u307f\u305a",
+        "translation": "water (esp. cool, fresh water, e.g. drinking water)"
+    },
+    {
+        "_id": 20,
+        "kanji": "\u75c5\u6c17",
+        "furigana": "\u3073\u3087\u3046\u304d",
+        "translation": "illness; disease; sickness"
+    },
+    {
+        "_id": 21,
+        "kanji": "\u4f1a\u793e",
+        "furigana": "\u304b\u3044\u3057\u3083",
+        "translation": "company; corporation"
+    },
+    {
+        "_id": 22,
+        "kanji": "\u4e0a\u3052\u308b",
+        "furigana": "\u3042",
+        "translation": "to raise; to elevate"
+    },
+    {
+        "_id": 23,
+        "kanji": "\u7d50\u5a5a",
+        "furigana": "\u3051\u3063\u3053\u3093",
+        "translation": "marriage"
+    },
+    {
+        "_id": 24,
+        "kanji": "\u8a00\u8449",
+        "furigana": "\u3053\u3068\u3070",
+        "translation": "language; dialect"
+    },
+    {
+        "_id": 25,
+        "kanji": "\u76ee",
+        "furigana": "\u3081",
+        "translation": "eye; eyeball"
+    },
+    {
+        "_id": 26,
+        "kanji": "\u8d70\u308b",
+        "furigana": "\u306f\u3057",
+        "translation": "to run"
+    },
+    {
+        "_id": 27,
+        "kanji": "\u540d\u524d",
+        "furigana": "\u306a\u307e\u3048",
+        "translation": "name; full name"
+    },
+    {
+        "_id": 28,
+        "kanji": "\u65c5\u884c",
+        "furigana": "\u308a\u3087\u3053\u3046",
+        "translation": "travel; trip; journey; excursion; tour"
+    },
+    {
+        "_id": 29,
+        "kanji": "\u9053",
+        "furigana": "\u307f\u3061",
+        "translation": "road; path; street; lane; passage"
+    },
+    {
+        "_id": 30,
+        "kanji": "\u98db\u884c\u6a5f",
+        "furigana": "\u3072\u3053\u3046\u304d",
+        "translation": "aeroplane; airplane; aircraft"
+    },
+    {
+        "_id": 31,
+        "kanji": "\u6620\u753b",
+        "furigana": "\u3048\u3044\u304c",
+        "translation": "movie; film"
+    },
+    {
+        "_id": 32,
+        "kanji": "\u97f3\u697d",
+        "furigana": "\u304a\u3093\u304c\u304f",
+        "translation": "music"
+    },
+    {
+        "_id": 33,
+        "kanji": "\u6728",
+        "furigana": "\u304d",
+        "translation": "tree; shrub; bush"
+    },
+    {
+        "_id": 34,
+        "kanji": "\u5927\u5b66",
+        "furigana": "\u3060\u3044\u304c\u304f",
+        "translation": "university; college"
+    },
+    {
+        "_id": 35,
+        "kanji": "\u6642\u8a08",
+        "furigana": "\u3068\u3051\u3044",
+        "translation": "watch; clock; timepiece"
+    },
+    {
+        "_id": 36,
+        "kanji": "\u5bb6\u65cf",
+        "furigana": "\u304b\u305e\u304f",
+        "translation": "family; members of a family"
+    },
+    {
+        "_id": 37,
+        "kanji": "\u82b1",
+        "furigana": "\u306f\u306a",
+        "translation": "flower; blossom; bloom; petal"
+    },
+    {
+        "_id": 38,
+        "kanji": "\u732b",
+        "furigana": "\u306d\u3053",
+        "translation": "cat"
+    },
+    {
+        "_id": 39,
+        "kanji": "\u6bce\u65e5",
+        "furigana": "\u307e\u3044\u306b\u3061",
+        "translation": "every day"
+    },
+    {
+        "_id": 40,
+        "kanji": "\u5bbf\u984c",
+        "furigana": "\u3057\u3085\u304f\u3060\u3044",
+        "translation": "homework; assignment"
+    },
+    {
+        "_id": 41,
+        "kanji": "\u96ea",
+        "furigana": "\u3086\u304d",
+        "translation": "snow"
+    },
+    {
+        "_id": 42,
+        "kanji": "\u5c71",
+        "furigana": "\u3084\u307e",
+        "translation": "mountain; hill"
+    },
+    {
+        "_id": 43,
+        "kanji": "\u7a93",
+        "furigana": "\u307e\u3069",
+        "translation": "window"
+    },
+    {
+        "_id": 44,
+        "kanji": "\u52d5\u7269",
+        "furigana": "\u3069\u3046\u3076\u3064",
+        "translation": "animal"
+    },
+    {
+        "_id": 45,
+        "kanji": "\u591c",
+        "furigana": "\u3088\u308b",
+        "translation": "evening; night"
+    },
+    {
+        "_id": 46,
+        "kanji": "\u6599\u7406",
+        "furigana": "\u308a\u3087\u3046\u308a",
+        "translation": "cooking; cookery; cuisine"
+    },
+    {
+        "_id": 47,
+        "kanji": "\u590f",
+        "furigana": "\u306a\u3064",
+        "translation": "summer"
+    },
+    {
+        "_id": 48,
+        "kanji": "\u65b0\u805e",
+        "furigana": "\u3057\u3093\u3076\u3093",
+        "translation": "newspaper"
+    },
+    {
+        "_id": 49,
+        "kanji": "\u516c\u5712",
+        "furigana": "\u3053\u3046\u3048\u3093",
+        "translation": "(public) park"
+    },
+    {
+        "_id": 50,
+        "kanji": "\u610f\u5473",
+        "furigana": "\u3044\u307f",
+        "translation": "meaning; significance; sense"
+    },
+    {
+        "_id": 51,
+        "kanji": "\u81ea\u8ee2\u8eca",
+        "furigana": "\u3058\u3066\u3093\u3057\u3083",
+        "translation": "bicycle"
+    },
+    {
+        "_id": 52,
+        "kanji": "\u8db3",
+        "furigana": "\u3042\u3057",
+        "translation": "foot"
+    },
+    {
+        "_id": 53,
+        "kanji": "\u96fb\u8eca",
+        "furigana": "\u3067\u3093\u3057\u3083",
+        "translation": "train; electric train"
+    },
+    {
+        "_id": 54,
+        "kanji": "\u6563\u6b69",
+        "furigana": "\u3055\u3093\u307d",
+        "translation": "walk; stroll"
+    },
+    {
+        "_id": 55,
+        "kanji": "\u58f0",
+        "furigana": "\u3053\u3048",
+        "translation": "voice"
+    },
+    {
+        "_id": 56,
+        "kanji": "\u671d",
+        "furigana": "\u3042\u3055",
+        "translation": "morning"
+    },
+    {
+        "_id": 57,
+        "kanji": "\u6b4c",
+        "furigana": "\u3046\u305f",
+        "translation": "song"
+    },
+    {
+        "_id": 58,
+        "kanji": "\u9774",
+        "furigana": "\u304f\u3064",
+        "translation": "shoe; shoes; boots; footwear; footgear"
+    },
+    {
+        "_id": 59,
+        "kanji": "\u7bb1",
+        "furigana": "\u306f\u3053",
+        "translation": "box; case; chest; package; pack; crate"
+    },
+    {
+        "_id": 60,
+        "kanji": "\u673a",
+        "furigana": "\u3064\u304f\u3048",
+        "translation": "desk"
+    },
+    {
+        "_id": 61,
+        "kanji": "\u5e3d\u5b50",
+        "furigana": "\u307c\u3046\u3057",
+        "translation": "hat; cap"
+    },
+    {
+        "_id": 62,
+        "kanji": "\u6d77",
+        "furigana": "\u3046\u307f",
+        "translation": "sea; ocean; waters"
+    },
+    {
+        "_id": 63,
+        "kanji": "\u6388\u696d",
+        "furigana": "\u3058\u3085\u304e\u3087\u3046",
+        "translation": "lesson; class work; teaching; instruction"
+    },
+    {
+        "_id": 64,
+        "kanji": "\u9280\u884c",
+        "furigana": "\u304e\u3093\u3053\u3046",
+        "translation": "bank"
+    },
+    {
+        "_id": 65,
+        "kanji": "\u5199\u771f",
+        "furigana": "\u3057\u3083\u3057\u3093",
+        "translation": "photograph; photo; picture; snapshot; snap"
+    },
+    {
+        "_id": 66,
+        "kanji": "\u51ac",
+        "furigana": "\u3075\u3086",
+        "translation": "winter"
+    },
+    {
+        "_id": 67,
+        "kanji": "\u6751",
+        "furigana": "\u3080\u3089",
+        "translation": "village"
+    },
+    {
+        "_id": 68,
+        "kanji": "\u5098",
+        "furigana": "\u304b\u3055",
+        "translation": "umbrella; parasol"
+    },
+    {
+        "_id": 69,
+        "kanji": "\u53e3",
+        "furigana": "\u304f\u3061",
+        "translation": "mouth"
+    },
+    {
+        "_id": 70,
+        "kanji": "\u6a4b",
+        "furigana": "\u306f\u3057",
+        "translation": "bridge"
+    },
+    {
+        "_id": 71,
+        "kanji": "\u75c5\u9662",
+        "furigana": "\u3073\u3087\u3046\u3044\u3093",
+        "translation": "hospital"
+    },
+    {
+        "_id": 72,
+        "kanji": "\u56f3\u66f8\u9928",
+        "furigana": "\u3068\u3057\u3087\u304b\u3093",
+        "translation": "library"
+    },
+    {
+        "_id": 73,
+        "kanji": "\u6625",
+        "furigana": "\u306f\u308b",
+        "translation": "spring; springtime"
+    },
+    {
+        "_id": 74,
+        "kanji": "\u8cb7\u3044\u7269",
+        "furigana": "\u304b\u3082\u306e",
+        "translation": "shopping; purchased goods"
+    },
+    {
+        "_id": 75,
+        "kanji": "\u6905\u5b50",
+        "furigana": "\u3044\u3059",
+        "translation": "chair; stool"
+    },
+    {
+        "_id": 76,
+        "kanji": "\u81ea\u52d5\u8eca",
+        "furigana": "\u3058\u3069\u3046\u3057\u3083",
+        "translation": "automobile"
+    },
+    {
+        "_id": 77,
+        "kanji": "\u8272",
+        "furigana": "\u3044\u308d",
+        "translation": "colour; color; hue; tint; tinge; shade"
+    },
+    {
+        "_id": 78,
+        "kanji": "\u5375",
+        "furigana": "\u305f\u307e\u3054",
+        "translation": "eggs; egg; spawn; roe"
+    },
+    {
+        "_id": 79,
+        "kanji": "\u8089",
+        "furigana": "\u306b\u304f",
+        "translation": "flesh"
+    },
+    {
+        "_id": 80,
+        "kanji": "\u98a8\u90aa",
+        "furigana": "\u304b\u305c",
+        "translation": "common cold; cold; influenza; flu; ague"
+    },
+    {
+        "_id": 81,
+        "kanji": "\u6383\u9664",
+        "furigana": "\u305d\u3046\u3058",
+        "translation": "cleaning; sweeping; dusting; scrubbing"
+    },
+    {
+        "_id": 82,
+        "kanji": "\u7d19",
+        "furigana": "\u304b\u307f",
+        "translation": "paper"
+    },
+    {
+        "_id": 83,
+        "kanji": "\u9375",
+        "furigana": "\u304b\u304e",
+        "translation": "key"
+    },
+    {
+        "_id": 84,
+        "kanji": "\u96d1\u8a8c",
+        "furigana": "\u3056\u3063\u3057",
+        "translation": "journal; magazine; periodical"
+    },
+    {
+        "_id": 85,
+        "kanji": "\u5207\u7b26",
+        "furigana": "\u304d\u3063\u3077",
+        "translation": "ticket"
+    },
+    {
+        "_id": 86,
+        "kanji": "\u5916\u56fd\u4eba",
+        "furigana": "\u304c\u3044\u3053\u304f\u3058\u3093",
+        "translation": "foreigner; foreign citizen; foreign national; alien; non-Japanese"
+    },
+    {
+        "_id": 87,
+        "kanji": "\u8ca1\u5e03",
+        "furigana": "\u3055\u3044\u3075",
+        "translation": "purse; handbag; wallet"
+    },
+    {
+        "_id": 88,
+        "kanji": "\u925b\u7b46",
+        "furigana": "\u3048\u3093\u3074\u3064",
+        "translation": "pencil"
+    },
+    {
+        "_id": 89,
+        "kanji": "\u5927\u4eba",
+        "furigana": "\u304a\u3068\u306a",
+        "translation": "adult"
+    },
+    {
+        "_id": 90,
+        "kanji": "\u5869",
+        "furigana": "\u3057\u304a",
+        "translation": "salt (i.e. sodium chloride); common salt; table salt"
+    },
+    {
+        "_id": 91,
+        "kanji": "\u590f\u4f11\u307f",
+        "furigana": "\u306a\u3064\u3084\u3059",
+        "translation": "summer vacation; summer holiday"
+    },
+    {
+        "_id": 92,
+        "kanji": "\u7802\u7cd6",
+        "furigana": "\u3055\u3068\u3046",
+        "translation": "sugar"
+    },
+    {
+        "_id": 93,
+        "kanji": "\u6c60",
+        "furigana": "\u3044\u3051",
+        "translation": "pond"
+    },
+    {
+        "_id": 94,
+        "kanji": "\u90f5\u4fbf\u5c40",
+        "furigana": "\u3086\u3046\u3073\u3093\u304d\u3087\u304f",
+        "translation": "post office"
+    },
+    {
+        "_id": 95,
+        "kanji": "\u6559\u5ba4",
+        "furigana": "\u304d\u3087\u3046\u3057\u3064",
+        "translation": "classroom"
+    },
+    {
+        "_id": 96,
+        "kanji": "\u8033",
+        "furigana": "\u307f\u307f",
+        "translation": "ear"
+    },
+    {
+        "_id": 97,
+        "kanji": "\u53f0\u6240",
+        "furigana": "\u3060\u3044\u3069\u3053\u308d",
+        "translation": "kitchen"
+    },
+    {
+        "_id": 98,
+        "kanji": "\u5207\u624b",
+        "furigana": "\u304d\u3063\u3066",
+        "translation": "stamp (postage); merchandise certificate"
+    },
+    {
+        "_id": 99,
+        "kanji": "\u96fb\u6c17",
+        "furigana": "\u3067\u3093\u304d",
+        "translation": "electricity"
+    },
+    {
+        "_id": 100,
+        "kanji": "\u6b6f",
+        "furigana": "\u306f",
+        "translation": "tooth"
+    },
+    {
+        "_id": 101,
+        "kanji": "\u6b6f",
+        "furigana": "\u306f",
+        "translation": "tooth"
+    },
+    {
+        "_id": 102,
+        "kanji": "\u7d05\u8336",
+        "furigana": "\u3053\u3046\u3061\u3083",
+        "translation": "black tea"
+    },
+    {
+        "_id": 103,
+        "kanji": "\u5bb6\u5ead",
+        "furigana": "\u304b\u3066\u3044",
+        "translation": "home; family; household"
+    },
+    {
+        "_id": 104,
+        "kanji": "\u91ce\u83dc",
+        "furigana": "\u3084\u3055\u3044",
+        "translation": "vegetable"
+    },
+    {
+        "_id": 105,
+        "kanji": "\u98a8\u5442",
+        "furigana": "\u3075\u308d",
+        "translation": "bath; bathtub"
+    },
+    {
+        "_id": 106,
+        "kanji": "\u7384\u95a2",
+        "furigana": "\u3052\u3093\u304b\u3093",
+        "translation": "entrance; front door; entryway; entranceway; entry hall; vestibule; porch; foyer; mud room"
+    },
+    {
+        "_id": 107,
+        "kanji": "\u5730\u4e0b\u9244",
+        "furigana": "\u3061\u304b\u3066\u3064",
+        "translation": "underground train; subway"
+    },
+    {
+        "_id": 108,
+        "kanji": "\u9f3b",
+        "furigana": "\u306f\u306a",
+        "translation": "nose"
+    },
+    {
+        "_id": 109,
+        "kanji": "\u7dd1",
+        "furigana": "\u307f\u3069\u308a",
+        "translation": "green"
+    },
+    {
+        "_id": 110,
+        "kanji": "\u663c",
+        "furigana": "\u3072\u308b",
+        "translation": "noon; midday"
+    },
+    {
+        "_id": 111,
+        "kanji": "\u897f",
+        "furigana": "\u306b\u3057",
+        "translation": "west"
+    },
+    {
+        "_id": 112,
+        "kanji": "\u767d",
+        "furigana": "\u3057\u308d",
+        "translation": "white"
+    },
+    {
+        "_id": 113,
+        "kanji": "\u6d17\u6fef",
+        "furigana": "\u305b\u3093\u305f\u304f",
+        "translation": "washing; laundry"
+    },
+    {
+        "_id": 114,
+        "kanji": "\u51b7\u8535\u5eab",
+        "furigana": "\u308c\u3044\u305e\u3046\u3053",
+        "translation": "refrigerator"
+    },
+    {
+        "_id": 115,
+        "kanji": "\u706b\u66dc\u65e5",
+        "furigana": "\u304b\u3088\u3046\u3073",
+        "translation": "Tuesday"
+    },
+    {
+        "_id": 116,
+        "kanji": "\u5357",
+        "furigana": "\u307f\u306a\u307f",
+        "translation": "south"
+    },
+    {
+        "_id": 117,
+        "kanji": "\u5317",
+        "furigana": "\u304d\u305f",
+        "translation": "north"
+    },
+    {
+        "_id": 118,
+        "kanji": "\u8336\u8272",
+        "furigana": "\u3061\u3083\u3044\u308d",
+        "translation": "light brown; tawny"
+    },
+    {
+        "_id": 119,
+        "kanji": "\u55ab\u8336\u5e97",
+        "furigana": "\u304d\u3063\u3055\u3066\u3093",
+        "translation": "coffee shop; tearoom; coffee lounge; coffeehouse; cafe"
+    },
+    {
+        "_id": 120,
+        "kanji": "\u9ed2",
+        "furigana": "\u304f\u308d",
+        "translation": "black"
+    },
+    {
+        "_id": 121,
+        "kanji": "\u9752",
+        "furigana": "\u3042\u304a",
+        "translation": "blue; azure"
+    },
+    {
+        "_id": 122,
+        "kanji": "\u9774\u4e0b",
+        "furigana": "\u304f\u3064\u3057\u305f",
+        "translation": "socks; sock; stockings; stocking"
+    },
+    {
+        "_id": 123,
+        "kanji": "\u5c01\u7b52",
+        "furigana": "\u3075\u3046\u3068\u3046",
+        "translation": "envelope"
+    },
+    {
+        "_id": 124,
+        "kanji": "\u8fba",
+        "furigana": "\u3078\u3093",
+        "translation": "area; vicinity; region"
+    },
+    {
+        "_id": 125,
+        "kanji": "\u9ec4\u8272",
+        "furigana": "\u304d\u3044\u308d",
+        "translation": "yellow; amber"
+    },
+    {
+        "_id": 126,
+        "kanji": "\u6620\u753b\u9928",
+        "furigana": "\u3048\u3044\u304c\u304b\u3093",
+        "translation": "movie theatre; movie theater; cinema"
+    },
+    {
+        "_id": 127,
+        "kanji": "\u7bb8",
+        "furigana": "\u306f\u3057",
+        "translation": "chopsticks"
+    },
+    {
+        "_id": 128,
+        "kanji": "\u98df\u5802",
+        "furigana": "\u3057\u3087\u304f\u3069\u3046",
+        "translation": "dining room; dining hall; cafeteria; messroom"
+    },
+    {
+        "_id": 129,
+        "kanji": "\u725b\u8089",
+        "furigana": "\u304e\u3085\u3046\u306b\u304f",
+        "translation": "beef"
+    },
+    {
+        "_id": 130,
+        "kanji": "\u4ea4\u5dee\u70b9",
+        "furigana": "\u3053\u3046\u3055\u3066\u3093",
+        "translation": "crossing; intersection"
+    },
+    {
+        "_id": 131,
+        "kanji": "\u8336\u7897",
+        "furigana": "\u3061\u3083\u308f\u3093",
+        "translation": "rice bowl; tea cup; teacup"
+    },
+    {
+        "_id": 132,
+        "kanji": "\u66c7\u308a",
+        "furigana": "\u304f\u3082",
+        "translation": "cloudiness; cloudy weather"
+    },
+    {
+        "_id": 133,
+        "kanji": "\u6f22\u5b57",
+        "furigana": "\u304b\u3093\u3058",
+        "translation": "Chinese characters; kanji"
+    },
+    {
+        "_id": 134,
+        "kanji": "\u80cc\u5e83",
+        "furigana": "\u80cc\u5e83\u305b\u3073\u308d",
+        "translation": "business suit"
+    },
+    {
+        "_id": 135,
+        "kanji": "\u4e07\u5e74\u7b46",
+        "furigana": "\u307e\u3093\u306d\u3093\u3072\u3064",
+        "translation": "fountain pen"
+    },
+    {
+        "_id": 136,
+        "kanji": "\u7070\u76bf",
+        "furigana": "\u306f\u3044\u3056\u3089",
+        "translation": "ashtray"
+    },
+    {
+        "_id": 137,
+        "kanji": "\u5927\u4f7f\u9928",
+        "furigana": "\u305f\u3044\u3057\u304b\u3093",
+        "translation": "embassy"
+    },
+    {
+        "_id": 138,
+        "kanji": "\u4ea4\u756a",
+        "furigana": "\u3053\u3046\u3070\u3093",
+        "translation": "police box; small neighborhood police station"
+    },
+    {
+        "_id": 139,
+        "kanji": "\u8c5a\u8089",
+        "furigana": "\u3076\u305f\u306b\u304f",
+        "translation": "pork"
+    },
+    {
+        "_id": 140,
+        "kanji": "\u98f2\u3080",
+        "furigana": "\u306e",
+        "translation": "to drink; to gulp; to swallow; to take (medicine)"
+    },
+    {
+        "_id": 141,
+        "kanji": "\u982d",
+        "furigana": "\u3042\u305f\u307e",
+        "translation": "head"
+    },
+    {
+        "_id": 142,
+        "kanji": "\u65e5\u66dc\u65e5",
+        "furigana": "\u306b\u3061\u3088\u3046\u3073",
+        "translation": "Sunday"
+    },
+    {
+        "_id": 143,
+        "kanji": "\u8a95\u751f\u65e5",
+        "furigana": "\u305f\u3093\u3058\u3087\u3046\u3073",
+        "translation": "birthday"
+    },
+    {
+        "_id": 144,
+        "kanji": "\u53ef\u611b\u3044",
+        "furigana": "\u53ef\u611b\u304b\u308f\u3044",
+        "translation": "cute; adorable; charming; lovely; pretty"
+    },
+    {
+        "_id": 145,
+        "kanji": "\u9784",
+        "furigana": "\u304b\u3070\u3093",
+        "translation": "bag; satchel; briefcase; basket"
+    },
+    {
+        "_id": 146,
+        "kanji": "\u571f\u66dc\u65e5",
+        "furigana": "\u3069\u3088\u3046\u3073",
+        "translation": "Saturday"
+    },
+    {
+        "_id": 147,
+        "kanji": "\u6708\u66dc\u65e5",
+        "furigana": "\u3052\u3064\u3088\u3046\u3073",
+        "translation": "Monday"
+    },
+    {
+        "_id": 148,
+        "kanji": "\u91d1\u66dc\u65e5",
+        "furigana": "\u304d\u3093\u3088\u3046\u3073",
+        "translation": "Friday"
+    },
+    {
+        "_id": 149,
+        "kanji": "\u82b1\u74f6",
+        "furigana": "\u304b\u3073\u3093",
+        "translation": "(flower) vase"
+    },
+    {
+        "_id": 150,
+        "kanji": "\u672c\u68da",
+        "furigana": "\u307b\u3093\u3060\u306a",
+        "translation": "bookshelves; bookshelf; bookcase"
+    },
+    {
+        "_id": 151,
+        "kanji": "\u6728\u66dc\u65e5",
+        "furigana": "\u3082\u304f\u3088\u3046\u3073",
+        "translation": "Thursday"
+    },
+    {
+        "_id": 152,
+        "kanji": "\u77f3\u9e78",
+        "furigana": "\u305b\u3063\u3051\u3093",
+        "translation": "soap"
+    },
+    {
+        "_id": 153,
+        "kanji": "\u6c34\u66dc\u65e5",
+        "furigana": "\u3059\u3044\u3088\u3046\u3073",
+        "translation": "Wednesday"
+    },
+    {
+        "_id": 154,
+        "kanji": "\u98f4",
+        "furigana": "\u3042\u3081",
+        "translation": "(hard) candy; toffee"
+    },
+    {
+        "_id": 155,
+        "kanji": "\u516b\u767e\u5c4b",
+        "furigana": "\u3084\u304a\u3084",
+        "translation": "greengrocer"
+    },
+    {
+        "_id": 156,
+        "kanji": "\u6210\u308b",
+        "furigana": "\u306a",
+        "translation": "to become; to get; to grow; to be; to reach; to attain"
+    },
+    {
+        "_id": 157,
+        "kanji": "\u4e00\u756a",
+        "furigana": "\u3044\u3061\u3070\u3093",
+        "translation": "number one; first; first place"
+    },
+    {
+        "_id": 158,
+        "kanji": "\u79c1",
+        "furigana": "\u308f\u305f\u3057",
+        "translation": "I; me"
+    },
+    {
+        "_id": 159,
+        "kanji": "\u5916",
+        "furigana": "\u305d\u3068",
+        "translation": "outside; exterior"
+    },
+    {
+        "_id": 160,
+        "kanji": "\u59c9",
+        "furigana": "\u3042\u306d",
+        "translation": "older sister; elder sister"
+    },
+    {
+        "_id": 161,
+        "kanji": "\u767e",
+        "furigana": "\u3072\u3083\u304f",
+        "translation": "100; hundred"
+    },
+    {
+        "_id": 162,
+        "kanji": "\u6709\u308b",
+        "furigana": "\u3042",
+        "translation": "to be; to exist; to live"
+    },
+    {
+        "_id": 163,
+        "kanji": "\u5176\u306e",
+        "furigana": "\u305d",
+        "translation": "that (something or someone distant from the speaker, close to the listener; actions of the listener, or ideas expressed or understood by the listener); the"
+    },
+    {
+        "_id": 164,
+        "kanji": "\u8a00\u3046",
+        "furigana": "\u3044",
+        "translation": "to say; to utter; to declare"
+    },
+    {
+        "_id": 165,
+        "kanji": "\u51fa\u6765\u308b",
+        "furigana": "\u3067\u304d",
+        "translation": "to be able (in a position) to do; to be up to the task"
+    },
+    {
+        "_id": 166,
+        "kanji": "\u826f\u3044",
+        "furigana": "\u3088",
+        "translation": "good; excellent; fine; nice; pleasant; agreeable"
+    },
+    {
+        "_id": 167,
+        "kanji": "\u4e0b\u3055\u3044",
+        "furigana": "\u304f\u3060",
+        "translation": "please give me"
+    },
+    {
+        "_id": 168,
+        "kanji": "\u898b\u308b",
+        "furigana": "\u307f",
+        "translation": "to see; to look; to watch; to view; to observe"
+    },
+    {
+        "_id": 169,
+        "kanji": "\u6b64\u306e",
+        "furigana": "\u3053",
+        "translation": "this (something or someone close to the speaker (including the speaker), or ideas expressed by the speaker)"
+    },
+    {
+        "_id": 170,
+        "kanji": "\u81ea\u5206",
+        "furigana": "\u3058\u3076\u3093",
+        "translation": "myself; yourself; oneself; himself; herself"
+    },
+    {
+        "_id": 171,
+        "kanji": "\u77e5\u308b",
+        "furigana": "\u3057",
+        "translation": "to be aware of; to know; to be conscious of; to cognize; to cognise"
+    },
+    {
+        "_id": 172,
+        "kanji": "\u6301\u3064",
+        "furigana": "\u3082",
+        "translation": "to hold (in one's hand); to take; to carry"
+    },
+    {
+        "_id": 173,
+        "kanji": "\u4f55",
+        "furigana": "\u306a\u306b",
+        "translation": "what"
+    },
+    {
+        "_id": 174,
+        "kanji": "\u8eca",
+        "furigana": "\u304f\u308b\u307e",
+        "translation": "car; automobile; vehicle"
+    },
+    {
+        "_id": 175,
+        "kanji": "\u8a71\u3059",
+        "furigana": "\u306f\u306a",
+        "translation": "to talk; to speak; to converse; to chat"
+    },
+    {
+        "_id": 176,
+        "kanji": "\u4eca",
+        "furigana": "\u3044\u307e",
+        "translation": "now; the present time; just now; soon; immediately; (one) more"
+    },
+    {
+        "_id": 177,
+        "kanji": "\u4eca\u65e5",
+        "furigana": "\u304d\u3087\u3046",
+        "translation": "today; this day"
+    },
+    {
+        "_id": 178,
+        "kanji": "\u8cb7\u3046",
+        "furigana": "\u304b",
+        "translation": "to buy; to purchase"
+    },
+    {
+        "_id": 179,
+        "kanji": "\u8aad\u3080",
+        "furigana": "\u3088",
+        "translation": "to read"
+    },
+    {
+        "_id": 180,
+        "kanji": "\u7686",
+        "furigana": "\u307f\u3093\u306a",
+        "translation": "all; everyone; everybody"
+    },
+    {
+        "_id": 181,
+        "kanji": "\u65b0\u3057\u3044",
+        "furigana": "\u3042\u305f\u3089",
+        "translation": "new; novel; fresh; recent; latest; up-to-date; modern"
+    },
+    {
+        "_id": 182,
+        "kanji": "\u8a71",
+        "furigana": "\u306f\u306a\u3057",
+        "translation": "talk; speech; chat; story; conversation"
+    },
+    {
+        "_id": 183,
+        "kanji": "\u660e\u65e5",
+        "furigana": "\u3042\u3057\u305f",
+        "translation": "tomorrow"
+    },
+    {
+        "_id": 184,
+        "kanji": "\u6628\u65e5",
+        "furigana": "\u304d\u306e\u3046",
+        "translation": "yesterday"
+    },
+    {
+        "_id": 185,
+        "kanji": "\u51fa\u308b",
+        "furigana": "\u3067",
+        "translation": "to leave; to exit; to go out; to come out; to get out"
+    },
+    {
+        "_id": 186,
+        "kanji": "\u52c9\u5f37",
+        "furigana": "\u3079\u3093\u304d\u3087\u3046",
+        "translation": "study"
+    },
+    {
+        "_id": 187,
+        "kanji": "\u53d6\u308b",
+        "furigana": "\u3068",
+        "translation": "to take; to pick up; to harvest; to earn; to win; to choose"
+    },
+    {
+        "_id": 188,
+        "kanji": "\u8ab0",
+        "furigana": "\u3060\u308c",
+        "translation": "who"
+    },
+    {
+        "_id": 189,
+        "kanji": "\u304a\u91d1",
+        "furigana": "\u304b\u306d",
+        "translation": "money"
+    },
+    {
+        "_id": 190,
+        "kanji": "\u7537",
+        "furigana": "\u304a\u3068\u3053",
+        "translation": "man; male"
+    },
+    {
+        "_id": 191,
+        "kanji": "\u72ac",
+        "furigana": "\u3044\u306c",
+        "translation": "dog (Canis (lupus) familiaris)"
+    },
+    {
+        "_id": 192,
+        "kanji": "\u4f7f\u3046",
+        "furigana": "\u3064\u304b",
+        "translation": "to use (a thing, method, etc.); to make use of; to put to use"
+    },
+    {
+        "_id": 193,
+        "kanji": "\u5927\u5909",
+        "furigana": "\u305f\u3044\u3078\u3093",
+        "translation": "very; greatly; terribly; awfully"
+    },
+    {
+        "_id": 194,
+        "kanji": "\u5f85\u3064",
+        "furigana": "\u307e",
+        "translation": "to wait"
+    },
+    {
+        "_id": 195,
+        "kanji": "\u4f5c\u308b",
+        "furigana": "\u3064\u304f",
+        "translation": "to make; to produce; to manufacture; to build; to construct"
+    },
+    {
+        "_id": 196,
+        "kanji": "\u5f8c\u308d",
+        "furigana": "\u3046\u3057",
+        "translation": "back; behind; rear"
+    },
+    {
+        "_id": 197,
+        "kanji": "\u753a",
+        "furigana": "\u307e\u3061",
+        "translation": "town; block; neighbourhood; neighborhood"
+    },
+    {
+        "_id": 198,
+        "kanji": "\u99c5",
+        "furigana": "\u3048\u304d",
+        "translation": "railway station; train station"
+    },
+    {
+        "_id": 199,
+        "kanji": "\u5c11\u3057",
+        "furigana": "\u3059\u3053",
+        "translation": "small quantity; little; few; something"
+    },
+    {
+        "_id": 200,
+        "kanji": "\u8cb4\u65b9",
+        "furigana": "\u3042\u306a\u305f",
+        "translation": "you (referring to someone of equal or lower status)"
+    },
+    {
+        "_id": 201,
+        "kanji": "\u6b32\u3057\u3044",
+        "furigana": "\u307b",
+        "translation": "wanted; wished for; in need of; desired"
+    },
+    {
+        "_id": 202,
+        "kanji": "\u884c\u304f",
+        "furigana": "\u3044",
+        "translation": "to go; to move (in a direction or towards a specific location); to head (towards); to be transported (towards); to reach"
+    },
+    {
+        "_id": 203,
+        "kanji": "\u4e57\u308b",
+        "furigana": "\u306e",
+        "translation": "to get on (train, plane, bus, ship, etc.); to get in; to board; to take; to embark"
+    },
+    {
+        "_id": 204,
+        "kanji": "\u5927\u304d\u306a",
+        "furigana": "\u304a\u304a",
+        "translation": "big; large; great"
+    },
+    {
+        "_id": 205,
+        "kanji": "\u533b\u8005",
+        "furigana": "\u3044\u3057\u3083",
+        "translation": "(medical) doctor; physician"
+    },
+    {
+        "_id": 206,
+        "kanji": "\u7d42\u308f\u308b",
+        "furigana": "\u304a",
+        "translation": "to finish; to end; to close"
+    },
+    {
+        "_id": 207,
+        "kanji": "\u5b66\u751f",
+        "furigana": "\u304c\u304f\u305b\u3044",
+        "translation": "student (esp. a university student)"
+    },
+    {
+        "_id": 208,
+        "kanji": "\u9577\u3044",
+        "furigana": "\u306a\u304c",
+        "translation": "long (distance)"
+    },
+    {
+        "_id": 209,
+        "kanji": "\u4f55\u306e",
+        "furigana": "\u3069",
+        "translation": "which; what (way)"
+    },
+    {
+        "_id": 210,
+        "kanji": "\u53c8",
+        "furigana": "\u307e\u305f",
+        "translation": "again; and; also; still (doing something)"
+    },
+    {
+        "_id": 211,
+        "kanji": "\u56fd",
+        "furigana": "\u304f\u306b",
+        "translation": "country; state"
+    },
+    {
+        "_id": 212,
+        "kanji": "\u9ad8\u3044",
+        "furigana": "\u305f\u304b",
+        "translation": "high; tall"
+    },
+    {
+        "_id": 213,
+        "kanji": "\u4f59\u308a",
+        "furigana": "\u3042\u307e",
+        "translation": "remainder; remnant; rest; balance; surplus; remains (of a meal); leftovers"
+    },
+    {
+        "_id": 214,
+        "kanji": "\u96e3\u3057\u3044",
+        "furigana": "\u3080\u305a\u304b",
+        "translation": "difficult; hard; troublesome; complicated; serious (disease, problem, etc.)"
+    },
+    {
+        "_id": 215,
+        "kanji": "\u53cb\u9054",
+        "furigana": "\u3068\u3082\u3060\u3061",
+        "translation": "friend; companion"
+    },
+    {
+        "_id": 216,
+        "kanji": "\u4e00\u3064",
+        "furigana": "\u3072\u3068",
+        "translation": "one"
+    },
+    {
+        "_id": 217,
+        "kanji": "\u672c\u5f53",
+        "furigana": "\u307b\u3093\u3068\u3046",
+        "translation": "truth; reality; actuality; fact"
+    },
+    {
+        "_id": 218,
+        "kanji": "\u5bdd\u308b",
+        "furigana": "\u306d",
+        "translation": "to lie down"
+    },
+    {
+        "_id": 219,
+        "kanji": "\u751f\u5f92",
+        "furigana": "\u305b\u3044\u3068",
+        "translation": "pupil; student; schoolchild"
+    },
+    {
+        "_id": 220,
+        "kanji": "\u5fd9\u3057\u3044",
+        "furigana": "\u3044\u305d\u304c",
+        "translation": "busy; occupied; hectic"
+    },
+    {
+        "_id": 221,
+        "kanji": "\u4e21\u89aa",
+        "furigana": "\u308a\u3087\u3046\u3057\u3093",
+        "translation": "parents; both parents"
+    },
+    {
+        "_id": 222,
+        "kanji": "\u6cf3\u3050",
+        "furigana": "\u304a\u3088",
+        "translation": "to swim"
+    },
+    {
+        "_id": 223,
+        "kanji": "\u51fa\u3059",
+        "furigana": "\u3060",
+        "translation": "to take out; to get out"
+    },
+    {
+        "_id": 224,
+        "kanji": "\u7acb\u3064",
+        "furigana": "\u305f",
+        "translation": "to stand; to rise; to stand up"
+    },
+    {
+        "_id": 225,
+        "kanji": "\u65e9\u3044",
+        "furigana": "\u306f\u3084",
+        "translation": "fast; quick; hasty; brisk"
+    },
+    {
+        "_id": 226,
+        "kanji": "\u697d\u3057\u3044",
+        "furigana": "\u305f\u306e",
+        "translation": "enjoyable; fun; pleasant; happy; delightful"
+    },
+    {
+        "_id": 227,
+        "kanji": "\u9762\u767d\u3044",
+        "furigana": "\u304a\u3082\u3057\u308d",
+        "translation": "interesting; fascinating; intriguing; enthralling"
+    },
+    {
+        "_id": 228,
+        "kanji": "\u7d75",
+        "furigana": "\u3048",
+        "translation": "picture; drawing; painting; sketch"
+    },
+    {
+        "_id": 229,
+        "kanji": "\u5973\u306e\u5b50",
+        "furigana": "\u304a\u3093\u306a\u3053",
+        "translation": "girl; daughter"
+    },
+    {
+        "_id": 230,
+        "kanji": "\u7740\u308b",
+        "furigana": "\u304d",
+        "translation": "to wear (in modern Japanese, from the shoulders down); to put on"
+    },
+    {
+        "_id": 231,
+        "kanji": "\u4e0a\u624b",
+        "furigana": "\u3058\u3087\u3046\u305a",
+        "translation": "skillful; skilled; proficient; good (at); adept; clever"
+    },
+    {
+        "_id": 232,
+        "kanji": "\u53e4\u3044",
+        "furigana": "\u3075\u308b",
+        "translation": "old; aged; ancient; antiquated; antique; timeworn"
+    },
+    {
+        "_id": 233,
+        "kanji": "\u5f37\u3044",
+        "furigana": "\u3064\u3088",
+        "translation": "strong; potent; competent; domineering; tough"
+    },
+    {
+        "_id": 234,
+        "kanji": "\u5168\u90e8",
+        "furigana": "\u305c\u3093\u3076",
+        "translation": "all; entire; whole; altogether"
+    },
+    {
+        "_id": 235,
+        "kanji": "\u547c\u3076",
+        "furigana": "\u3088",
+        "translation": "to call out (to); to call; to invoke"
+    },
+    {
+        "_id": 236,
+        "kanji": "\u5348\u5f8c",
+        "furigana": "\u3054\u3054",
+        "translation": "afternoon; p.m."
+    },
+    {
+        "_id": 237,
+        "kanji": "\u639b\u3051\u308b",
+        "furigana": "\u304b",
+        "translation": "to hang up (e.g. a coat, a picture on the wall); to let hang; to suspend (from); to hoist (e.g. sail); to raise (e.g. flag)"
+    },
+    {
+        "_id": 238,
+        "kanji": "\u8f9e\u66f8",
+        "furigana": "\u3058\u3057\u3087",
+        "translation": "dictionary; lexicon"
+    },
+    {
+        "_id": 239,
+        "kanji": "\u5929\u6c17",
+        "furigana": "\u3066\u3093\u304d",
+        "translation": "weather; the elements"
+    },
+    {
+        "_id": 240,
+        "kanji": "\u4f53",
+        "furigana": "\u304b\u3089\u3060",
+        "translation": "body"
+    },
+    {
+        "_id": 241,
+        "kanji": "\u5927\u304d\u3044",
+        "furigana": "\u304a\u304a",
+        "translation": "big; large; great"
+    },
+    {
+        "_id": 242,
+        "kanji": "\u5915\u3079",
+        "furigana": "\u3086\u3046",
+        "translation": "evening"
+    },
+    {
+        "_id": 243,
+        "kanji": "\u8cea\u554f",
+        "furigana": "\u3057\u3064\u3082\u3093",
+        "translation": "question; inquiry; enquiry"
+    },
+    {
+        "_id": 244,
+        "kanji": "\u6709\u540d",
+        "furigana": "\u3086\u3046\u3081\u3044",
+        "translation": "famous"
+    },
+    {
+        "_id": 245,
+        "kanji": "\u5144",
+        "furigana": "\u3042\u306b",
+        "translation": "elder brother; older brother"
+    },
+    {
+        "_id": 246,
+        "kanji": "\u6b4c\u3046",
+        "furigana": "\u3046\u305f",
+        "translation": "to sing"
+    },
+    {
+        "_id": 247,
+        "kanji": "\u4e0a\u308b",
+        "furigana": "\u306e\u307c",
+        "translation": "to ascend; to go up; to climb"
+    },
+    {
+        "_id": 248,
+        "kanji": "\u670d",
+        "furigana": "\u3075\u304f",
+        "translation": "clothes (esp. Western clothes)"
+    },
+    {
+        "_id": 249,
+        "kanji": "\u9ce5",
+        "furigana": "\u3068\u308a",
+        "translation": "bird"
+    },
+    {
+        "_id": 250,
+        "kanji": "\u6642\u3005",
+        "furigana": "\u3068\u304d\u3069\u304d",
+        "translation": "sometimes; at times"
+    },
+    {
+        "_id": 251,
+        "kanji": "\u59b9",
+        "furigana": "\u3044\u3082\u3046\u3068",
+        "translation": "younger sister"
+    },
+    {
+        "_id": 252,
+        "kanji": "\u4e8c\u3064",
+        "furigana": "\u3075\u305f",
+        "translation": "two"
+    },
+    {
+        "_id": 253,
+        "kanji": "\u983c\u3080",
+        "furigana": "\u305f\u306e",
+        "translation": "to request; to beg; to ask"
+    },
+    {
+        "_id": 254,
+        "kanji": "\u304a\u7236\u3055\u3093",
+        "furigana": "\u3068\u3046",
+        "translation": "father; dad; papa; pa; pop; daddy; dada"
+    },
+    {
+        "_id": 255,
+        "kanji": "\u4eca\u671d",
+        "furigana": "\u3051\u3055",
+        "translation": "this morning"
+    },
+    {
+        "_id": 256,
+        "kanji": "\u9045\u3044",
+        "furigana": "\u304a\u305d",
+        "translation": "slow; time-consuming; sluggish"
+    },
+    {
+        "_id": 257,
+        "kanji": "\u85ac",
+        "furigana": "\u304f\u3059\u308a",
+        "translation": "medicine; pharmaceuticals; (legal) drugs; pill; ointment; salve"
+    },
+    {
+        "_id": 258,
+        "kanji": "\u501f\u308a\u308b",
+        "furigana": "\u304b",
+        "translation": "to borrow; to have a loan"
+    },
+    {
+        "_id": 259,
+        "kanji": "\u5ead",
+        "furigana": "\u306b\u308f",
+        "translation": "garden; yard; courtyard"
+    },
+    {
+        "_id": 260,
+        "kanji": "\u5916\u56fd",
+        "furigana": "\u304c\u3044\u3053\u304f",
+        "translation": "foreign country"
+    },
+    {
+        "_id": 261,
+        "kanji": "\u5143\u6c17",
+        "furigana": "\u3052\u3093\u304d",
+        "translation": "lively; full of spirit; energetic; vigorous; vital; spirited"
+    },
+    {
+        "_id": 262,
+        "kanji": "\u5c0f\u3055\u3044",
+        "furigana": "\u3061\u3044",
+        "translation": "small; little; tiny"
+    },
+    {
+        "_id": 263,
+        "kanji": "\u5f1f",
+        "furigana": "\u304a\u3068\u3046\u3068",
+        "translation": "younger brother; little brother; kid brother"
+    },
+    {
+        "_id": 264,
+        "kanji": "\u9b5a",
+        "furigana": "\u3055\u304b\u306a",
+        "translation": "fish"
+    },
+    {
+        "_id": 265,
+        "kanji": "\u4eca\u5e74",
+        "furigana": "\u3053\u3068\u3057",
+        "translation": "this year"
+    },
+    {
+        "_id": 266,
+        "kanji": "\u304a\u6bcd\u3055\u3093",
+        "furigana": "\u304b\u3042",
+        "translation": "mother; mom; mum; ma"
+    },
+    {
+        "_id": 267,
+        "kanji": "\u7537\u306e\u5b50",
+        "furigana": "\u304a\u3068\u3053\u3053",
+        "translation": "boy; male child; baby boy"
+    },
+    {
+        "_id": 268,
+        "kanji": "\u98db\u3076",
+        "furigana": "\u3068",
+        "translation": "to fly; to soar"
+    },
+    {
+        "_id": 269,
+        "kanji": "\u58f2\u308b",
+        "furigana": "\u3046",
+        "translation": "to sell"
+    },
+    {
+        "_id": 270,
+        "kanji": "\u9759\u304b",
+        "furigana": "\u3057\u305a",
+        "translation": "quiet; silent"
+    },
+    {
+        "_id": 271,
+        "kanji": "\u4f11\u3080",
+        "furigana": "\u3084\u3059",
+        "translation": "to be absent; to take a day off"
+    },
+    {
+        "_id": 272,
+        "kanji": "\u98df\u3079\u7269",
+        "furigana": "\u305f\u3082\u306e",
+        "translation": "food"
+    },
+    {
+        "_id": 273,
+        "kanji": "\u5927\u5207",
+        "furigana": "\u305f\u3044\u305b\u3064",
+        "translation": "important; necessary; indispensable"
+    },
+    {
+        "_id": 274,
+        "kanji": "\u6765\u9031",
+        "furigana": "\u3089\u3044\u3057\u3085\u3046",
+        "translation": "next week"
+    },
+    {
+        "_id": 275,
+        "kanji": "\u8b66\u5b98",
+        "furigana": "\u3051\u3044\u304b\u3093",
+        "translation": "police officer; policeman; constable"
+    },
+    {
+        "_id": 276,
+        "kanji": "\u5efa\u7269",
+        "furigana": "\u305f\u3066\u3082\u306e",
+        "translation": "building"
+    },
+    {
+        "_id": 277,
+        "kanji": "\u6696\u304b\u3044",
+        "furigana": "\u3042\u305f\u305f",
+        "translation": "warm; mild; (pleasantly) hot"
+    },
+    {
+        "_id": 278,
+        "kanji": "\u964d\u308a\u308b",
+        "furigana": "\u304a",
+        "translation": "to descend (e.g. a mountain); to go down; to come down"
+    },
+    {
+        "_id": 279,
+        "kanji": "\u6b62\u307e\u308b",
+        "furigana": "\u3068",
+        "translation": "to stop (moving); to come to a stop"
+    },
+    {
+        "_id": 280,
+        "kanji": "\u4e00\u7dd2",
+        "furigana": "\u3044\u3063\u3057\u3087",
+        "translation": "together"
+    },
+    {
+        "_id": 281,
+        "kanji": "\u5148\u9031",
+        "furigana": "\u305b\u3093\u3057\u3085\u3046",
+        "translation": "last week; the week before"
+    },
+    {
+        "_id": 282,
+        "kanji": "\u767d\u3044",
+        "furigana": "\u3057\u308d",
+        "translation": "white"
+    },
+    {
+        "_id": 283,
+        "kanji": "\u5c11\u306a\u3044",
+        "furigana": "\u3059\u304f",
+        "translation": "few; a little; scarce; insufficient; seldom"
+    },
+    {
+        "_id": 284,
+        "kanji": "\u4e8c",
+        "furigana": "\u306b",
+        "translation": "two"
+    },
+    {
+        "_id": 285,
+        "kanji": "\u8d64\u3044",
+        "furigana": "\u3042\u304b",
+        "translation": "red; crimson; scarlet; vermilion; vermillion"
+    },
+    {
+        "_id": 286,
+        "kanji": "\u6d17\u3046",
+        "furigana": "\u3042\u3089",
+        "translation": "to wash; to cleanse; to rinse"
+    },
+    {
+        "_id": 287,
+        "kanji": "\u5acc\u3044",
+        "furigana": "\u304d\u3089",
+        "translation": "disliked; hated; disagreeable"
+    },
+    {
+        "_id": 288,
+        "kanji": "\u7acb\u6d3e",
+        "furigana": "\u308a\u3063\u3071",
+        "translation": "splendid; fine; handsome; elegant; imposing; prominent"
+    },
+    {
+        "_id": 289,
+        "kanji": "\u6687",
+        "furigana": "\u3072\u307e",
+        "translation": "spare time; free time; leisure"
+    },
+    {
+        "_id": 290,
+        "kanji": "\u304a\u8336",
+        "furigana": "\u3061\u3083",
+        "translation": "tea (usu. green)"
+    },
+    {
+        "_id": 291,
+        "kanji": "\u5e83\u3044",
+        "furigana": "\u3072\u308d",
+        "translation": "spacious; vast; wide"
+    },
+    {
+        "_id": 292,
+        "kanji": "\u53bb\u5e74",
+        "furigana": "\u304d\u3087\u306d\u3093",
+        "translation": "last year"
+    },
+    {
+        "_id": 293,
+        "kanji": "\u96a3",
+        "furigana": "\u3068\u306a\u308a",
+        "translation": "next (to); adjoining; adjacent"
+    },
+    {
+        "_id": 294,
+        "kanji": "\u5927\u597d\u304d",
+        "furigana": "\u3060\u3044\u3059",
+        "translation": "loveable; very likeable; like very much"
+    },
+    {
+        "_id": 295,
+        "kanji": "\u5973",
+        "furigana": "\u304a\u3093\u306a",
+        "translation": "female; woman; female sex"
+    },
+    {
+        "_id": 296,
+        "kanji": "\u5207\u308b",
+        "furigana": "\u304d",
+        "translation": "to cut; to cut through; to perform (surgery)"
+    },
+    {
+        "_id": 297,
+        "kanji": "\u591a\u5206",
+        "furigana": "\u305f\u3076\u3093",
+        "translation": "perhaps; probably"
+    },
+    {
+        "_id": 298,
+        "kanji": "\u6bce\u671d",
+        "furigana": "\u307e\u3044\u3042\u3055",
+        "translation": "every morning"
+    },
+    {
+        "_id": 299,
+        "kanji": "\u5acc",
+        "furigana": "\u3044\u3084",
+        "translation": "disagreeable; detestable; unpleasant; reluctant"
+    },
+    {
+        "_id": 300,
+        "kanji": "\u8377\u7269",
+        "furigana": "\u306b\u3082\u3064",
+        "translation": "luggage; baggage; package"
+    },
+    {
+        "_id": 301,
+        "kanji": "\u756a\u53f7",
+        "furigana": "\u3070\u3093\u3054\u3046",
+        "translation": "number; series of digits"
+    },
+    {
+        "_id": 302,
+        "kanji": "\u8fd4\u3059",
+        "furigana": "\u304b\u3048",
+        "translation": "to return (something); to restore; to put back"
+    },
+    {
+        "_id": 303,
+        "kanji": "\u6765\u5e74",
+        "furigana": "\u3089\u3044\u306d\u3093",
+        "translation": "next year"
+    },
+    {
+        "_id": 304,
+        "kanji": "\u660e\u308b\u3044",
+        "furigana": "\u3042\u304b",
+        "translation": "light; well-lit; well-lighted"
+    },
+    {
+        "_id": 305,
+        "kanji": "\u8fd1\u3044",
+        "furigana": "\u3061\u304b",
+        "translation": "near; close; short (distance)"
+    },
+    {
+        "_id": 306,
+        "kanji": "\u5411\u3053\u3046",
+        "furigana": "\u3080",
+        "translation": "opposite side; other side; opposite direction"
+    },
+    {
+        "_id": 307,
+        "kanji": "\u59cb\u3081",
+        "furigana": "\u306f\u3058",
+        "translation": "beginning; start; outset; opening"
+    },
+    {
+        "_id": 308,
+        "kanji": "\u75db\u3044",
+        "furigana": "\u3044\u305f",
+        "translation": "painful; sore"
+    },
+    {
+        "_id": 309,
+        "kanji": "\u4f11\u307f",
+        "furigana": "\u3084\u3059",
+        "translation": "rest; recess; respite"
+    },
+    {
+        "_id": 310,
+        "kanji": "\u7df4\u7fd2",
+        "furigana": "\u308c\u3093\u3057\u3085\u3046",
+        "translation": "practice; practising"
+    },
+    {
+        "_id": 311,
+        "kanji": "\u5341",
+        "furigana": "\u3058\u3085\u3046",
+        "translation": "ten"
+    },
+    {
+        "_id": 312,
+        "kanji": "\u5148\u6708",
+        "furigana": "\u305b\u3093\u3052\u3064",
+        "translation": "last month"
+    },
+    {
+        "_id": 313,
+        "kanji": "\u4e0a\u7740",
+        "furigana": "\u3046\u308f\u304e",
+        "translation": "coat; tunic; jacket; outer garment"
+    },
+    {
+        "_id": 314,
+        "kanji": "\u7d50\u69cb",
+        "furigana": "\u3051\u3063\u3053\u3046",
+        "translation": "splendid; nice; wonderful; delicious; sweet"
+    },
+    {
+        "_id": 315,
+        "kanji": "\u5144\u5f1f",
+        "furigana": "\u304d\u3087\u3046\u3060\u3044",
+        "translation": "siblings; brothers and sisters"
+    },
+    {
+        "_id": 316,
+        "kanji": "\u6bce\u5e74",
+        "furigana": "\u307e\u3044\u3068\u3057",
+        "translation": "every year; yearly; annually"
+    },
+    {
+        "_id": 317,
+        "kanji": "\u6765\u6708",
+        "furigana": "\u3089\u3044\u3052\u3064",
+        "translation": "next month"
+    },
+    {
+        "_id": 318,
+        "kanji": "\u4e94",
+        "furigana": "\u3054",
+        "translation": "five"
+    },
+    {
+        "_id": 319,
+        "kanji": "\u98f2\u307f\u7269",
+        "furigana": "\u306e\u3082\u306e",
+        "translation": "drink; beverage"
+    },
+    {
+        "_id": 320,
+        "kanji": "\u725b\u4e73",
+        "furigana": "\u304e\u3085\u3046\u306b\u3085\u3046",
+        "translation": "(cow's) milk"
+    },
+    {
+        "_id": 321,
+        "kanji": "\u5f31\u3044",
+        "furigana": "\u3088\u308f",
+        "translation": "weak; frail; delicate; tender; unskilled; weak (wine)"
+    },
+    {
+        "_id": 322,
+        "kanji": "\u4e09",
+        "furigana": "\u3055\u3093",
+        "translation": "three"
+    },
+    {
+        "_id": 323,
+        "kanji": "\u5927\u4e08\u592b",
+        "furigana": "\u3060\u3044\u3058\u3087\u3046\u3076",
+        "translation": "safe; secure; sound; problem-free; without fear; all right; alright; OK; okay"
+    },
+    {
+        "_id": 324,
+        "kanji": "\u9ed2\u3044",
+        "furigana": "\u304f\u308d",
+        "translation": "black"
+    },
+    {
+        "_id": 325,
+        "kanji": "\u534a\u5206",
+        "furigana": "\u306f\u3093\u3076\u3093",
+        "translation": "half"
+    },
+    {
+        "_id": 326,
+        "kanji": "\u7686\u3055\u3093",
+        "furigana": "\u307f\u306a",
+        "translation": "all; everyone; everybody"
+    },
+    {
+        "_id": 327,
+        "kanji": "\u62bc\u3059",
+        "furigana": "\u304a",
+        "translation": "to push; to press"
+    },
+    {
+        "_id": 328,
+        "kanji": "\u52e4\u3081\u308b",
+        "furigana": "\u3064\u3068",
+        "translation": "to work (for); to be employed (at); to serve (in)"
+    },
+    {
+        "_id": 329,
+        "kanji": "\u71b1\u3044",
+        "furigana": "\u3042\u3064",
+        "translation": "hot (thing)"
+    },
+    {
+        "_id": 330,
+        "kanji": "\u4e09\u3064",
+        "furigana": "\u307f\u3063",
+        "translation": "three"
+    },
+    {
+        "_id": 331,
+        "kanji": "\u679c\u7269",
+        "furigana": "\u304f\u3060\u3082\u306e",
+        "translation": "fruit"
+    },
+    {
+        "_id": 332,
+        "kanji": "\u4eca\u9031",
+        "furigana": "\u3053\u3093\u3057\u3085\u3046",
+        "translation": "this week"
+    },
+    {
+        "_id": 333,
+        "kanji": "\u7518\u3044",
+        "furigana": "\u3042\u307e",
+        "translation": "sweet-tasting; sweet; sugary; sugared"
+    },
+    {
+        "_id": 334,
+        "kanji": "\u53f3",
+        "furigana": "\u307f\u304e",
+        "translation": "right; right hand side"
+    },
+    {
+        "_id": 335,
+        "kanji": "\u6669",
+        "furigana": "\u3070\u3093",
+        "translation": "evening"
+    },
+    {
+        "_id": 336,
+        "kanji": "\u968e\u6bb5",
+        "furigana": "\u304b\u3044\u3060\u3093",
+        "translation": "stairs; stairway; staircase"
+    },
+    {
+        "_id": 337,
+        "kanji": "\u5927\u52e2",
+        "furigana": "\u304a\u304a\u305c\u3044",
+        "translation": "crowd of people; great number of people"
+    },
+    {
+        "_id": 338,
+        "kanji": "\u5e7e\u3064",
+        "furigana": "\u3044\u304f",
+        "translation": "how many?"
+    },
+    {
+        "_id": 339,
+        "kanji": "\u5f35\u308b",
+        "furigana": "\u306f",
+        "translation": "to stick; to paste; to affix"
+    },
+    {
+        "_id": 340,
+        "kanji": "\u5915\u65b9",
+        "furigana": "\u3086\u3046\u304c\u305f",
+        "translation": "evening; dusk"
+    },
+    {
+        "_id": 341,
+        "kanji": "\u4f4e\u3044",
+        "furigana": "\u3072\u304f",
+        "translation": "low (rank, degree, value, content, quality, etc.)"
+    },
+    {
+        "_id": 342,
+        "kanji": "\u5de6",
+        "furigana": "\u3072\u3060\u308a",
+        "translation": "left; left hand side"
+    },
+    {
+        "_id": 343,
+        "kanji": "\u6bce\u9031",
+        "furigana": "\u307e\u3044\u3057\u3085\u3046",
+        "translation": "every week"
+    },
+    {
+        "_id": 344,
+        "kanji": "\u4e0b\u624b",
+        "furigana": "\u3078\u305f",
+        "translation": "unskillful; poor; awkward"
+    },
+    {
+        "_id": 345,
+        "kanji": "\u5343",
+        "furigana": "\u305b\u3093",
+        "translation": "1,000; thousand"
+    },
+    {
+        "_id": 346,
+        "kanji": "\u6e21\u3059",
+        "furigana": "\u308f\u305f",
+        "translation": "to ferry across (e.g. a river); to carry across; to traverse"
+    },
+    {
+        "_id": 347,
+        "kanji": "\u5348\u524d",
+        "furigana": "\u3054\u305c\u3093",
+        "translation": "morning; a.m."
+    },
+    {
+        "_id": 348,
+        "kanji": "\u4e38\u3044",
+        "furigana": "\u307e\u308b",
+        "translation": "round; circular; spherical"
+    },
+    {
+        "_id": 349,
+        "kanji": "\u4fbf\u5229",
+        "furigana": "\u3079\u3093\u308a",
+        "translation": "convenient; handy; useful"
+    },
+    {
+        "_id": 350,
+        "kanji": "\u4eca\u6708",
+        "furigana": "\u3053\u3093\u3052\u3064",
+        "translation": "this month"
+    },
+    {
+        "_id": 351,
+        "kanji": "\u6d74\u3073\u308b",
+        "furigana": "\u3042",
+        "translation": "to dash over oneself (e.g. water); to take (e.g. shower); to bask in (e.g. the sun); to bathe in; to be flooded with (e.g. light); to be covered in"
+    },
+    {
+        "_id": 352,
+        "kanji": "\u534a",
+        "furigana": "\u306f\u3093",
+        "translation": "half; semi-"
+    },
+    {
+        "_id": 353,
+        "kanji": "\u6d0b\u670d",
+        "furigana": "\u3088\u3046\u3075\u304f",
+        "translation": "Western-style clothes (cf. traditional Japanese clothes)"
+    },
+    {
+        "_id": 354,
+        "kanji": "\u64ae\u308b",
+        "furigana": "\u3068",
+        "translation": "to take (a photo)"
+    },
+    {
+        "_id": 355,
+        "kanji": "\u7de0\u3081\u308b",
+        "furigana": "\u3057",
+        "translation": "to tie; to fasten; to tighten"
+    },
+    {
+        "_id": 356,
+        "kanji": "\u6587\u7ae0",
+        "furigana": "\u3076\u3093\u3057\u3087\u3046",
+        "translation": "writing; composition; essay; article; prose; (writing) style"
+    },
+    {
+        "_id": 357,
+        "kanji": "\u516b",
+        "furigana": "\u306f\u3061",
+        "translation": "eight"
+    },
+    {
+        "_id": 358,
+        "kanji": "\u8584\u3044",
+        "furigana": "\u3046\u3059",
+        "translation": "thin"
+    },
+    {
+        "_id": 359,
+        "kanji": "\u6a2a",
+        "furigana": "\u3088\u3053",
+        "translation": "horizontal (as opposed to vertical); lying down"
+    },
+    {
+        "_id": 360,
+        "kanji": "\u56db\u3064",
+        "furigana": "\u3088\u3063",
+        "translation": "four"
+    },
+    {
+        "_id": 361,
+        "kanji": "\u516d",
+        "furigana": "\u308d\u304f",
+        "translation": "six"
+    },
+    {
+        "_id": 362,
+        "kanji": "\u4e08\u592b",
+        "furigana": "\u3058\u3087\u3046\u3076",
+        "translation": "healthy; robust; strong; solid; durable"
+    },
+    {
+        "_id": 363,
+        "kanji": "\u6bce\u6669",
+        "furigana": "\u307e\u3044\u3070\u3093",
+        "translation": "every night"
+    },
+    {
+        "_id": 364,
+        "kanji": "\u6771",
+        "furigana": "\u3072\u304c\u3057",
+        "translation": "east"
+    },
+    {
+        "_id": 365,
+        "kanji": "\u6674\u308c",
+        "furigana": "\u306f",
+        "translation": "clear weather; fine weather"
+    },
+    {
+        "_id": 366,
+        "kanji": "\u4e94\u3064",
+        "furigana": "\u3044\u3064",
+        "translation": "five"
+    },
+    {
+        "_id": 367,
+        "kanji": "\u7d30\u3044",
+        "furigana": "\u307b\u305d",
+        "translation": "thin; slender; fine"
+    },
+    {
+        "_id": 368,
+        "kanji": "\u5eca\u4e0b",
+        "furigana": "\u308d\u3046\u304b",
+        "translation": "corridor; hallway; passageway"
+    },
+    {
+        "_id": 369,
+        "kanji": "\u592a\u3044",
+        "furigana": "\u3075\u3068",
+        "translation": "fat; thick"
+    },
+    {
+        "_id": 370,
+        "kanji": "\u7e26",
+        "furigana": "\u305f\u3066",
+        "translation": "the vertical; height"
+    },
+    {
+        "_id": 371,
+        "kanji": "\u4e5d\u3064",
+        "furigana": "\u3053\u3053\u306e",
+        "translation": "nine"
+    },
+    {
+        "_id": 372,
+        "kanji": "\u4e03\u3064",
+        "furigana": "\u306a\u306a",
+        "translation": "seven"
+    },
+    {
+        "_id": 373,
+        "kanji": "\u7559\u5b66\u751f",
+        "furigana": "\u308a\u3085\u3046\u304c\u304f\u305b\u3044",
+        "translation": "overseas student; exchange student"
+    },
+    {
+        "_id": 374,
+        "kanji": "\u4e00\u6628\u5e74",
+        "furigana": "\u3044\u3063\u3055\u304f\u306d\u3093",
+        "translation": "year before last"
+    },
+    {
+        "_id": 375,
+        "kanji": "\u4eba",
+        "furigana": "\u3072\u3068",
+        "translation": "man; person"
+    },
+    {
+        "_id": 376,
+        "kanji": "\u5c45\u308b",
+        "furigana": "\u3044",
+        "translation": "to be (of animate objects); to exist"
+    },
+    {
+        "_id": 377,
+        "kanji": "\u5176\u308c",
+        "furigana": "\u305d",
+        "translation": "that (indicating an item or person near the listener, the action of the listener, or something on their mind); it"
+    },
+    {
+        "_id": 378,
+        "kanji": "\u7269",
+        "furigana": "\u3082\u306e",
+        "translation": "thing; object; article; stuff; substance"
+    },
+    {
+        "_id": 379,
+        "kanji": "\u5bb6",
+        "furigana": "\u3044\u3048",
+        "translation": "house; residence; dwelling"
+    },
+    {
+        "_id": 380,
+        "kanji": "\u672c",
+        "furigana": "\u307b\u3093",
+        "translation": "book; volume; script"
+    },
+    {
+        "_id": 381,
+        "kanji": "\u8fda\u3082",
+        "furigana": "\u3068\u3066",
+        "translation": "very; awfully; exceedingly"
+    },
+    {
+        "_id": 382,
+        "kanji": "\u4f1a\u3046",
+        "furigana": "\u3042",
+        "translation": "to meet; to encounter; to see"
+    },
+    {
+        "_id": 383,
+        "kanji": "\u597d\u304d",
+        "furigana": "\u3059",
+        "translation": "liked; well-liked; favourite; favorite"
+    },
+    {
+        "_id": 384,
+        "kanji": "\u5206\u304b\u308b",
+        "furigana": "\u308f",
+        "translation": "to understand; to comprehend; to grasp; to see; to get; to follow"
+    },
+    {
+        "_id": 385,
+        "kanji": "\u805e\u304f",
+        "furigana": "\u304d",
+        "translation": "to hear"
+    },
+    {
+        "_id": 386,
+        "kanji": "\u6240",
+        "furigana": "\u3068\u3053\u308d",
+        "translation": "place; spot; scene; site"
+    },
+    {
+        "_id": 387,
+        "kanji": "\u5148",
+        "furigana": "\u3055\u304d",
+        "translation": "previous; prior; former; first; earlier; some time ago; preceding"
+    },
+    {
+        "_id": 388,
+        "kanji": "\u4f55\u6642\u3082",
+        "furigana": "\u3044\u3064",
+        "translation": "always; usually; every time"
+    },
+    {
+        "_id": 389,
+        "kanji": "\u66f8\u304f",
+        "furigana": "\u304b",
+        "translation": "to write; to compose; to pen"
+    },
+    {
+        "_id": 390,
+        "kanji": "\u6ca2\u5c71",
+        "furigana": "\u305f\u304f\u3055\u3093",
+        "translation": "a lot; lots; plenty; many; a large number; much; a great deal; a good deal"
+    },
+    {
+        "_id": 391,
+        "kanji": "\u5165\u308b",
+        "furigana": "\u306f\u3044",
+        "translation": "to enter; to go into"
+    },
+    {
+        "_id": 392,
+        "kanji": "\u7f6e\u304f",
+        "furigana": "\u304a",
+        "translation": "to put; to place"
+    },
+    {
+        "_id": 393,
+        "kanji": "\u4f55\u51e6",
+        "furigana": "\u3069\u3053",
+        "translation": "where; what place"
+    },
+    {
+        "_id": 394,
+        "kanji": "\u4f4f\u3080",
+        "furigana": "\u3059",
+        "translation": "to live (of humans); to reside; to inhabit; to dwell; to abide"
+    },
+    {
+        "_id": 395,
+        "kanji": "\u98df\u3079\u308b",
+        "furigana": "\u305f",
+        "translation": "to eat"
+    },
+    {
+        "_id": 396,
+        "kanji": "\u6b69\u304f",
+        "furigana": "\u3042\u308b",
+        "translation": "to walk"
+    },
+    {
+        "_id": 397,
+        "kanji": "\u50cd\u304f",
+        "furigana": "\u306f\u305f\u3089",
+        "translation": "to work; to labor; to labour"
+    },
+    {
+        "_id": 398,
+        "kanji": "\u7740\u304f",
+        "furigana": "\u3064",
+        "translation": "to arrive at; to reach"
+    },
+    {
+        "_id": 399,
+        "kanji": "\u4e0a",
+        "furigana": "\u3046\u3048",
+        "translation": "above; up; over; elder (e.g. daughter)"
+    },
+    {
+        "_id": 400,
+        "kanji": "\u60aa\u3044",
+        "furigana": "\u308f\u308b",
+        "translation": "bad; poor; inferior"
+    },
+    {
+        "_id": 401,
+        "kanji": "\u6559\u3048\u308b",
+        "furigana": "\u304a\u3057",
+        "translation": "to teach; to instruct"
+    },
+    {
+        "_id": 402,
+        "kanji": "\u964d\u308b",
+        "furigana": "\u3075",
+        "translation": "to fall (of rain, snow, ash, etc.); to come down"
+    },
+    {
+        "_id": 403,
+        "kanji": "\u6b7b\u306c",
+        "furigana": "\u3057",
+        "translation": "to die; to pass away"
+    },
+    {
+        "_id": 404,
+        "kanji": "\u5e30\u308b",
+        "furigana": "\u304b\u3048",
+        "translation": "to return; to come home; to go home; to go back"
+    },
+    {
+        "_id": 405,
+        "kanji": "\u5fd8\u308c\u308b",
+        "furigana": "\u308f\u3059",
+        "translation": "to forget; to leave carelessly; to be forgetful of; to forget about; to forget (an article)"
+    },
+    {
+        "_id": 406,
+        "kanji": "\u591a\u3044",
+        "furigana": "\u304a\u304a",
+        "translation": "many; numerous; a lot"
+    },
+    {
+        "_id": 407,
+        "kanji": "\u51fa\u304b\u3051\u308b",
+        "furigana": "\u3067",
+        "translation": "to go out (e.g. on an excursion or outing); to leave; to depart; to start; to set out"
+    },
+    {
+        "_id": 408,
+        "kanji": "\u82e5\u3044",
+        "furigana": "\u308f\u304b",
+        "translation": "young; youthful"
+    },
+    {
+        "_id": 409,
+        "kanji": "\u639b\u304b\u308b",
+        "furigana": "\u304b",
+        "translation": "to take (a resource, e.g. time or money)"
+    },
+    {
+        "_id": 410,
+        "kanji": "\u540c\u3058",
+        "furigana": "\u304a\u306a",
+        "translation": "same; identical; equal; uniform; equivalent; similar; common (origin); changeless; alike"
+    },
+    {
+        "_id": 411,
+        "kanji": "\u8d77\u304d\u308b",
+        "furigana": "\u304a",
+        "translation": "to get up; to rise; to blaze up (fire)"
+    },
+    {
+        "_id": 412,
+        "kanji": "\u5ea7\u308b",
+        "furigana": "\u3059\u308f",
+        "translation": "to sit; to squat"
+    },
+    {
+        "_id": 413,
+        "kanji": "\u5e97",
+        "furigana": "\u307f\u305b",
+        "translation": "store; shop; establishment; restaurant"
+    },
+    {
+        "_id": 414,
+        "kanji": "\u5165\u308c\u308b",
+        "furigana": "\u3044",
+        "translation": "to put in; to let in; to take in; to bring in; to insert; to set (a jewel, etc.); to ink in (e.g. a tattoo)"
+    },
+    {
+        "_id": 415,
+        "kanji": "\u4f55\u65b9",
+        "furigana": "\u3069\u306a\u305f",
+        "translation": "who?"
+    },
+    {
+        "_id": 416,
+        "kanji": "\u4e00\u5bf8",
+        "furigana": "\u4e00\u5bf8\u3061\u3087\u3063\u3068",
+        "translation": "a little; a bit; slightly"
+    },
+    {
+        "_id": 417,
+        "kanji": "\u75b2\u308c\u308b",
+        "furigana": "\u3064\u304b",
+        "translation": "to get tired; to tire"
+    },
+    {
+        "_id": 418,
+        "kanji": "\u958b\u3051\u308b",
+        "furigana": "\u3042",
+        "translation": "to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock"
+    },
+    {
+        "_id": 419,
+        "kanji": "\u4f55\u6545",
+        "furigana": "\u306a\u305c",
+        "translation": "why; how"
+    },
+    {
+        "_id": 420,
+        "kanji": "\u4e00\u65e5",
+        "furigana": "\u3044\u3061\u306b\u3061",
+        "translation": "one day"
+    },
+    {
+        "_id": 421,
+        "kanji": "\u5bd2\u3044",
+        "furigana": "\u3055\u3080",
+        "translation": "cold (e.g. weather)"
+    },
+    {
+        "_id": 422,
+        "kanji": "\u898b\u305b\u308b",
+        "furigana": "\u307f",
+        "translation": "to show; to display"
+    },
+    {
+        "_id": 423,
+        "kanji": "\u9055\u3046",
+        "furigana": "\u3061\u304c",
+        "translation": "to differ (from); to vary"
+    },
+    {
+        "_id": 424,
+        "kanji": "\u5982\u4f55\u3057\u3066",
+        "furigana": "\u3069\u3046",
+        "translation": "how; in what way; by what means"
+    },
+    {
+        "_id": 425,
+        "kanji": "\u4ed8\u3051\u308b",
+        "furigana": "\u3064",
+        "translation": "to attach; to join; to add; to append; to affix; to stick; to glue; to fasten; to sew on; to apply (ointment)"
+    },
+    {
+        "_id": 426,
+        "kanji": "\u899a\u3048\u308b",
+        "furigana": "\u304a\u307c",
+        "translation": "to memorize; to memorise; to commit to memory; to learn by heart; to bear in mind; to remember"
+    },
+    {
+        "_id": 427,
+        "kanji": "\u8fd1\u304f",
+        "furigana": "\u3061\u304b",
+        "translation": "near; neighbourhood; neighborhood; vicinity"
+    },
+    {
+        "_id": 428,
+        "kanji": "\u98a8",
+        "furigana": "\u304b\u305c",
+        "translation": "wind; breeze; draught; draft"
+    },
+    {
+        "_id": 429,
+        "kanji": "\u56f0\u308b",
+        "furigana": "\u3053\u307e",
+        "translation": "to be troubled; to be worried; to be bothered; to be embarrassed; to be stumped"
+    },
+    {
+        "_id": 430,
+        "kanji": "\u751f\u307e\u308c\u308b",
+        "furigana": "\u3046",
+        "translation": "to be born"
+    },
+    {
+        "_id": 431,
+        "kanji": "\u4e01\u5ea6",
+        "furigana": "\u3061\u3087\u3046\u3069",
+        "translation": "exactly; precisely; just; right"
+    },
+    {
+        "_id": 432,
+        "kanji": "\u521d\u3081\u3066",
+        "furigana": "\u306f\u3058",
+        "translation": "for the first time"
+    },
+    {
+        "_id": 433,
+        "kanji": "\u59cb\u307e\u308b",
+        "furigana": "\u306f\u3058",
+        "translation": "to begin; to start; to commence"
+    },
+    {
+        "_id": 434,
+        "kanji": "\u8cb8\u3059",
+        "furigana": "\u304b",
+        "translation": "to lend; to loan"
+    },
+    {
+        "_id": 435,
+        "kanji": "\u7dba\u9e97",
+        "furigana": "\u304d\u308c\u3044",
+        "translation": "pretty; lovely; beautiful; fair"
+    },
+    {
+        "_id": 436,
+        "kanji": "\u5e7e\u3089",
+        "furigana": "\u3044\u304f",
+        "translation": "how much?; how many?"
+    },
+    {
+        "_id": 437,
+        "kanji": "\u7a7a",
+        "furigana": "\u305d\u3089",
+        "translation": "sky; the air; the heavens"
+    },
+    {
+        "_id": 438,
+        "kanji": "\u5f3e\u304f",
+        "furigana": "\u3072",
+        "translation": "to play (a stringed or keyboard instrument)"
+    },
+    {
+        "_id": 439,
+        "kanji": "\u6691\u3044",
+        "furigana": "\u3042\u3064",
+        "translation": "hot; warm; sultry; heated"
+    },
+    {
+        "_id": 440,
+        "kanji": "\u904a\u3076",
+        "furigana": "\u3042\u305d",
+        "translation": "to play; to enjoy oneself; to have a good time"
+    },
+    {
+        "_id": 441,
+        "kanji": "\u7136\u3057",
+        "furigana": "\u3057\u304b",
+        "translation": "however; but"
+    },
+    {
+        "_id": 442,
+        "kanji": "\u7121\u304f\u3059",
+        "furigana": "\u306a",
+        "translation": "to lose (something); to mislay"
+    },
+    {
+        "_id": 443,
+        "kanji": "\u8272\u3005",
+        "furigana": "\u3044\u308d\u3044\u308d",
+        "translation": "various; all sorts of; variety of"
+    },
+    {
+        "_id": 444,
+        "kanji": "\u6e21\u308b",
+        "furigana": "\u308f\u305f",
+        "translation": "to cross over; to go across"
+    },
+    {
+        "_id": 445,
+        "kanji": "\u6697\u3044",
+        "furigana": "\u304f\u3089",
+        "translation": "dark; gloomy; murky"
+    },
+    {
+        "_id": 446,
+        "kanji": "\u6b64\u65b9",
+        "furigana": "\u3053\u3061\u3089",
+        "translation": "this way (direction close to the speaker or towards the speaker); this direction"
+    },
+    {
+        "_id": 447,
+        "kanji": "\u91cd\u3044",
+        "furigana": "\u304a\u3082",
+        "translation": "heavy; weighty; massive"
+    },
+    {
+        "_id": 448,
+        "kanji": "\u4eca\u6669",
+        "furigana": "\u3053\u3093\u3070\u3093",
+        "translation": "tonight; this evening"
+    },
+    {
+        "_id": 449,
+        "kanji": "\u7f8e\u5473\u3057\u3044",
+        "furigana": "\u304a\u3044",
+        "translation": "delicious; tasty; sweet"
+    },
+    {
+        "_id": 450,
+        "kanji": "\u6d88\u3059",
+        "furigana": "\u3051",
+        "translation": "to erase; to delete; to cross out"
+    },
+    {
+        "_id": 451,
+        "kanji": "\u6613\u3057\u3044",
+        "furigana": "\u3084\u3055",
+        "translation": "easy; plain; simple"
+    },
+    {
+        "_id": 452,
+        "kanji": "\u9589\u3081\u308b",
+        "furigana": "\u3057",
+        "translation": "to close; to shut"
+    },
+    {
+        "_id": 453,
+        "kanji": "\u5b89\u3044",
+        "furigana": "\u3084\u3059",
+        "translation": "cheap; inexpensive"
+    },
+    {
+        "_id": 454,
+        "kanji": "\u9060\u3044",
+        "furigana": "\u3068\u304a",
+        "translation": "far; distant; far away; a long way off; in the distance"
+    },
+    {
+        "_id": 455,
+        "kanji": "\u77ed\u3044",
+        "furigana": "\u307f\u3058\u304b",
+        "translation": "short"
+    },
+    {
+        "_id": 456,
+        "kanji": "\u6d88\u3048\u308b",
+        "furigana": "\u304d",
+        "translation": "to go out; to vanish; to disappear"
+    },
+    {
+        "_id": 457,
+        "kanji": "\u6674\u308c\u308b",
+        "furigana": "\u306f",
+        "translation": "to clear up; to clear away; to be sunny; to stop raining"
+    },
+    {
+        "_id": 458,
+        "kanji": "\u66f2\u304c\u308b",
+        "furigana": "\u307e",
+        "translation": "to bend; to curve; to warp; to wind; to twist"
+    },
+    {
+        "_id": 459,
+        "kanji": "\u51b7\u305f\u3044",
+        "furigana": "\u3064\u3081",
+        "translation": "cold (to the touch); chilly; icy; freezing"
+    },
+    {
+        "_id": 460,
+        "kanji": "\u9752\u3044",
+        "furigana": "\u3042\u304a",
+        "translation": "blue; azure"
+    },
+    {
+        "_id": 461,
+        "kanji": "\u9801",
+        "furigana": "\u30da\u30fc\u30b8",
+        "translation": "page"
+    },
+    {
+        "_id": 462,
+        "kanji": "\u5439\u304f",
+        "furigana": "\u3075",
+        "translation": "to blow (e.g. wind); to play a wind instrument"
+    },
+    {
+        "_id": 463,
+        "kanji": "\u5965\u3055\u3093",
+        "furigana": "\u304a\u304f",
+        "translation": "wife; your wife; his wife; married lady; madam"
+    },
+    {
+        "_id": 464,
+        "kanji": "\u5f15\u304f",
+        "furigana": "\u3072",
+        "translation": "to pull; to tug; to lead (e.g. a horse)"
+    },
+    {
+        "_id": 465,
+        "kanji": "\u6bb5\u3005",
+        "furigana": "\u3060\u3093\u3060\u3093",
+        "translation": "gradually; by degrees; little by little; more and more; increasingly"
+    },
+    {
+        "_id": 466,
+        "kanji": "\u7fd2\u3046",
+        "furigana": "\u306a\u3089",
+        "translation": "to take lessons in; to be taught; to learn (from a teacher); to study (under a teacher); to get training in"
+    },
+    {
+        "_id": 467,
+        "kanji": "\u5f7c\u51e6",
+        "furigana": "\u3042\u305d\u3053",
+        "translation": "there (place physically distant from both speaker and listener); over there; that place; yonder; you-know-where"
+    },
+    {
+        "_id": 468,
+        "kanji": "\u72ed\u3044",
+        "furigana": "\u305b\u307e",
+        "translation": "narrow; confined; small; cramped"
+    },
+    {
+        "_id": 469,
+        "kanji": "\u8efd\u3044",
+        "furigana": "\u304b\u308b",
+        "translation": "light (i.e. not heavy); feeling light (i.e. offering little resistance, moving easily)"
+    },
+    {
+        "_id": 470,
+        "kanji": "\u8131\u3050",
+        "furigana": "\u306c",
+        "translation": "to take off (clothes, shoes, etc.); to undress"
+    },
+    {
+        "_id": 471,
+        "kanji": "\u4e07",
+        "furigana": "\u307e\u3093",
+        "translation": "10,000; ten thousand"
+    },
+    {
+        "_id": 472,
+        "kanji": "\u7169\u3044",
+        "furigana": "\u3046\u308b\u3055",
+        "translation": "noisy; loud"
+    },
+    {
+        "_id": 473,
+        "kanji": "\u4e26\u3076",
+        "furigana": "\u306a\u3089",
+        "translation": "to line up; to stand in a line"
+    },
+    {
+        "_id": 474,
+        "kanji": "\u5438\u3046",
+        "furigana": "\u3059",
+        "translation": "to smoke; to breathe in; to inhale"
+    },
+    {
+        "_id": 475,
+        "kanji": "\u8a70\u3089\u306a\u3044",
+        "furigana": "\u3064\u307e",
+        "translation": "dull; uninteresting; boring; tedious"
+    },
+    {
+        "_id": 476,
+        "kanji": "\u9589\u307e\u308b",
+        "furigana": "\u3057",
+        "translation": "to be shut; to close; to be closed"
+    },
+    {
+        "_id": 477,
+        "kanji": "\u54b2\u304f",
+        "furigana": "\u3055",
+        "translation": "to bloom"
+    },
+    {
+        "_id": 478,
+        "kanji": "\u771f\u3063\u76f4\u3050",
+        "furigana": "\u307e\u3059",
+        "translation": "straight (ahead); direct; upright; erect"
+    },
+    {
+        "_id": 479,
+        "kanji": "\u4e00",
+        "furigana": "\u3044\u3061",
+        "translation": "one"
+    },
+    {
+        "_id": 480,
+        "kanji": "\u304a\u7956\u6bcd\u3055\u3093",
+        "furigana": "\u3070\u3042",
+        "translation": "grandmother"
+    },
+    {
+        "_id": 481,
+        "kanji": "\u5176\u65b9",
+        "furigana": "\u305d\u3061\u3089",
+        "translation": "that way (direction distant from the speaker, close to the listener)"
+    },
+    {
+        "_id": 482,
+        "kanji": "\u6dbc\u3057\u3044",
+        "furigana": "\u3059\u305a",
+        "translation": "cool; refreshing"
+    },
+    {
+        "_id": 483,
+        "kanji": "\u539a\u3044",
+        "furigana": "\u3042\u3064",
+        "translation": "thick; deep; heavy"
+    },
+    {
+        "_id": 484,
+        "kanji": "\u304a\u5144\u3055\u3093",
+        "furigana": "\u306b\u3044",
+        "translation": "older brother; elder brother"
+    },
+    {
+        "_id": 485,
+        "kanji": "\u304a\u59c9\u3055\u3093",
+        "furigana": "\u306d\u3048",
+        "translation": "elder sister"
+    },
+    {
+        "_id": 486,
+        "kanji": "\u5371\u306a\u3044",
+        "furigana": "\u3042\u3076",
+        "translation": "dangerous; risky; hazardous; perilous; precarious"
+    },
+    {
+        "_id": 487,
+        "kanji": "\u6c5a\u3044",
+        "furigana": "\u304d\u305f\u306a",
+        "translation": "dirty; filthy; foul; unclean"
+    },
+    {
+        "_id": 488,
+        "kanji": "\u4e26\u3079\u308b",
+        "furigana": "\u306a\u3089",
+        "translation": "to line up; to set up; to arrange in a line"
+    },
+    {
+        "_id": 489,
+        "kanji": "\u304a\u8179",
+        "furigana": "\u306a\u304b",
+        "translation": "belly; abdomen; stomach"
+    },
+    {
+        "_id": 490,
+        "kanji": "\u4e0d\u5473\u3044",
+        "furigana": "\u307e\u305a",
+        "translation": "unappetising; unappetizing; unsavoury; unsavory; unpleasant"
+    },
+    {
+        "_id": 491,
+        "kanji": "\u66c7\u308b",
+        "furigana": "\u304f\u3082",
+        "translation": "to get cloudy; to cloud over; to become overcast"
+    },
+    {
+        "_id": 492,
+        "kanji": "\u3054\u98ef",
+        "furigana": "\u306f\u3093",
+        "translation": "cooked rice"
+    },
+    {
+        "_id": 493,
+        "kanji": "\u304a\u83d3\u5b50",
+        "furigana": "\u304b\u3057",
+        "translation": "confections; sweets; candy"
+    },
+    {
+        "_id": 494,
+        "kanji": "\u78e8\u304f",
+        "furigana": "\u307f\u304c",
+        "translation": "to polish; to shine; to brush (e.g. teeth); to grind (e.g. lens)"
+    },
+    {
+        "_id": 495,
+        "kanji": "\u9ec4\u8272\u3044",
+        "furigana": "\u304d\u3044\u308d",
+        "translation": "yellow"
+    },
+    {
+        "_id": 496,
+        "kanji": "\u8cd1\u3084\u304b",
+        "furigana": "\u306b\u304e",
+        "translation": "bustling; busy; lively"
+    },
+    {
+        "_id": 497,
+        "kanji": "\u9cf4\u304f",
+        "furigana": "\u306a",
+        "translation": "to sing (bird)"
+    },
+    {
+        "_id": 498,
+        "kanji": "\u5915\u98ef",
+        "furigana": "\u3086\u3046\u306f\u3093",
+        "translation": "evening meal"
+    },
+    {
+        "_id": 499,
+        "kanji": "\u8449\u66f8",
+        "furigana": "\u306f\u304c\u304d",
+        "translation": "postcard"
+    },
+    {
+        "_id": 500,
+        "kanji": "\u671d\u3054\u98ef",
+        "furigana": "\u3042\u3055\u306f\u3093",
+        "translation": "breakfast"
+    },
+    {
+        "_id": 501,
+        "kanji": "\u516d\u3064",
+        "furigana": "\u3080\u3063",
+        "translation": "six"
+    },
+    {
+        "_id": 502,
+        "kanji": "\u304a\u624b\u6d17\u3044",
+        "furigana": "\u3066\u3042\u3089",
+        "translation": "toilet; restroom; lavatory; bathroom"
+    },
+    {
+        "_id": 503,
+        "kanji": "\u304a\u5de1\u308a\u3055\u3093",
+        "furigana": "\u307e\u308f",
+        "translation": "police officer"
+    },
+    {
+        "_id": 504,
+        "kanji": "\u5dee\u3059",
+        "furigana": "\u3055",
+        "translation": "to shine"
+    },
+    {
+        "_id": 505,
+        "kanji": "\u96f6",
+        "furigana": "\u308c\u3044",
+        "translation": "zero; nought"
+    },
+    {
+        "_id": 506,
+        "kanji": "\u4e8c\u5341\u65e5",
+        "furigana": "\u306f\u3064\u304b",
+        "translation": "twentieth day of the month"
+    },
+    {
+        "_id": 507,
+        "kanji": "\u7c81",
+        "furigana": "\u30ad\u30ed\u30e1\u30fc\u30c8\u30eb",
+        "translation": "kilometer; kilometre"
+    },
+    {
+        "_id": 508,
+        "kanji": "\u516b\u3064",
+        "furigana": "\u3084\u3063",
+        "translation": "eight"
+    },
+    {
+        "_id": 509,
+        "kanji": "\u518d\u6765\u5e74",
+        "furigana": "\u3055\u3089\u3044\u306d\u3093",
+        "translation": "year after next"
+    },
+    {
+        "_id": 510,
+        "kanji": "\u826f\u304f",
+        "furigana": "\u3088",
+        "translation": "nicely; properly; well; skillfully; skilfully"
+    },
+    {
+        "_id": 511,
+        "kanji": "\u5176\u51e6",
+        "furigana": "\u305d\u3053",
+        "translation": "there (place relatively near listener)"
+    },
+    {
+        "_id": 512,
+        "kanji": "\u5c0f\u3055\u306a",
+        "furigana": "\u3061\u3044",
+        "translation": "small; little; tiny"
+    },
+    {
+        "_id": 513,
+        "kanji": "\u7b54\u3048\u308b",
+        "furigana": "\u3053\u305f",
+        "translation": "to answer; to reply"
+    },
+    {
+        "_id": 514,
+        "kanji": "\u3082\u3046\u4e00\u5ea6",
+        "furigana": "\u3044\u3061\u3069",
+        "translation": "once more; again"
+    },
+    {
+        "_id": 515,
+        "kanji": "\u8981\u308b",
+        "furigana": "\u3044",
+        "translation": "to be needed; to be wanted"
+    },
+    {
+        "_id": 516,
+        "kanji": "\u80cc",
+        "furigana": "\u305b",
+        "translation": "back; spine"
+    },
+    {
+        "_id": 517,
+        "kanji": "\u304a\u5f01\u5f53",
+        "furigana": "\u3079\u3093\u3068\u3046",
+        "translation": "bento; Japanese box lunch"
+    },
+    {
+        "_id": 518,
+        "kanji": "\u6669\u5fa1\u98ef",
+        "furigana": "\u3070\u3093\u3054\u306f\u3093",
+        "translation": "dinner; evening meal"
+    },
+    {
+        "_id": 519,
+        "kanji": "\u7b49",
+        "furigana": "\u306a\u3069",
+        "translation": "et cetera; etc.; and the like; and so forth"
+    },
+    {
+        "_id": 520,
+        "kanji": "\u4e2d",
+        "furigana": "\u306a\u304b",
+        "translation": "inside; in"
+    },
+    {
+        "_id": 521,
+        "kanji": "\u73c8\u7432",
+        "furigana": "\u73c8\u7432\u30b3\u30fc\u30d2\u30fc",
+        "translation": "coffee"
+    },
+    {
+        "_id": 522,
+        "kanji": "\u7c73",
+        "furigana": "\u7c73\u30e1\u30fc\u30c8\u30eb",
+        "translation": "metre; meter"
+    },
+    {
+        "_id": 523,
+        "kanji": "\u4e00\u6628\u65e5",
+        "furigana": "\u304a\u3068\u3068\u3044",
+        "translation": "day before yesterday"
+    },
+    {
+        "_id": 524,
+        "kanji": "\u91a4\u6cb9",
+        "furigana": "\u3057\u3087\u3046\u3086",
+        "translation": "soy sauce; shoyu"
+    },
+    {
+        "_id": 525,
+        "kanji": "\u70ba\u308b",
+        "furigana": "\u3059",
+        "translation": "to do; to carry out; to perform"
+    },
+    {
+        "_id": 526,
+        "kanji": "\u5f7c",
+        "furigana": "\u3042\u308c",
+        "translation": "that (indicating something distant from both speaker and listener (in space, time or psychologically), or something understood without naming it directly)"
+    },
+    {
+        "_id": 527,
+        "kanji": "\u4e00\u65e5",
+        "furigana": "\u3064\u3044\u305f\u3061",
+        "translation": "first day of the month"
+    },
+    {
+        "_id": 528,
+        "kanji": "\u4e09\u65e5",
+        "furigana": "\u307f\u3063\u304b",
+        "translation": "the third day of the month"
+    },
+    {
+        "_id": 529,
+        "kanji": "\u4e94\u65e5",
+        "furigana": "\u3044\u3064\u304b",
+        "translation": "the fifth day of the month"
+    },
+    {
+        "_id": 530,
+        "kanji": "\u4e8c\u65e5",
+        "furigana": "\u3075\u3064\u304b",
+        "translation": "second day of the month"
+    },
+    {
+        "_id": 531,
+        "kanji": "\u5341\u65e5",
+        "furigana": "\u3068\u304a\u304b",
+        "translation": "the tenth day of the month"
+    },
+    {
+        "_id": 532,
+        "kanji": "\u516d\u65e5",
+        "furigana": "\u3080\u3044\u304b",
+        "translation": "sixth day of the month"
+    },
+    {
+        "_id": 533,
+        "kanji": "\u516b\u65e5",
+        "furigana": "\u3088\u3046\u304b",
+        "translation": "the eighth day of the month"
+    },
+    {
+        "_id": 534,
+        "kanji": "\u4e5d\u65e5",
+        "furigana": "\u3053\u3053\u306e\u304b",
+        "translation": "the ninth day of the month"
+    },
+    {
+        "_id": 535,
+        "kanji": "\u6765\u308b",
+        "furigana": "\u304f",
+        "translation": "to come (spatially or temporally); to approach; to arrive"
+    },
+    {
+        "_id": 536,
+        "kanji": "\u5f8c",
+        "furigana": "\u3042\u3068",
+        "translation": "behind; rear"
+    },
+    {
+        "_id": 537,
+        "kanji": "\u4e00\u4eba",
+        "furigana": "\u3072\u3068\u308a",
+        "translation": "one person"
+    },
+    {
+        "_id": 538,
+        "kanji": "\u4e8c\u4eba",
+        "furigana": "\u3075\u305f\u308a",
+        "translation": "two persons; two people; pair; couple"
+    },
+    {
+        "_id": 539,
+        "kanji": "\u5074",
+        "furigana": "\u305d\u3070",
+        "translation": "near; close; beside; vicinity; proximity; besides; while"
+    },
+    {
+        "_id": 540,
+        "kanji": "\u5426",
+        "furigana": "\u3044\u3044\u3048",
+        "translation": "no; nay"
+    },
+    {
+        "_id": 541,
+        "kanji": "\u5730\u56f3",
+        "furigana": "\u3061\u305a",
+        "translation": "map"
+    },
+    {
+        "_id": 542,
+        "kanji": "\u8f9b\u3044",
+        "furigana": "\u304b\u3089",
+        "translation": "spicy; hot"
+    },
+    {
+        "_id": 543,
+        "kanji": "\u9580",
+        "furigana": "\u3082\u3093",
+        "translation": "gate"
+    },
+    {
+        "_id": 544,
+        "kanji": "\u89d2",
+        "furigana": "\u304b\u3069",
+        "translation": "corner (e.g. desk, pavement)"
+    },
+    {
+        "_id": 545,
+        "kanji": "\u6bce\u6708",
+        "furigana": "\u307e\u3044\u3064\u304d",
+        "translation": "every month; each month; monthly"
+    },
+    {
+        "_id": 546,
+        "kanji": "\u4e03",
+        "furigana": "\u3057\u3061",
+        "translation": "seven"
+    },
+    {
+        "_id": 547,
+        "kanji": "\u4f2f\u6bcd\u3055\u3093",
+        "furigana": "\u304a\u3070",
+        "translation": "aunt"
+    },
+    {
+        "_id": 548,
+        "kanji": "\u304a\u98a8\u5442",
+        "furigana": "\u3075\u308d",
+        "translation": "bath"
+    },
+    {
+        "_id": 549,
+        "kanji": "\u56db",
+        "furigana": "\u3057",
+        "translation": "four"
+    },
+    {
+        "_id": 550,
+        "kanji": "\u304a\u9152",
+        "furigana": "\u3055\u3051",
+        "translation": "alcohol; sake"
+    },
+    {
+        "_id": 551,
+        "kanji": "\u5165\u53e3",
+        "furigana": "\u3044\u308a\u3050\u3061",
+        "translation": "entrance; entry; gate; approach; mouth"
+    },
+    {
+        "_id": 552,
+        "kanji": "\u51fa\u53e3",
+        "furigana": "\u3067\u3050\u3061",
+        "translation": "exit; gateway; way out; outlet; leak; vent"
+    },
+    {
+        "_id": 553,
+        "kanji": "\u304a\u76bf",
+        "furigana": "\u3055\u3089",
+        "translation": "plate; dish"
+    },
+    {
+        "_id": 554,
+        "kanji": "\u663c\u3054\u98ef",
+        "furigana": "\u3072\u308b\u306f\u3093",
+        "translation": "lunch; midday meal"
+    },
+    {
+        "_id": 555,
+        "kanji": "\u9ce5\u8089",
+        "furigana": "\u3068\u308a\u306b\u304f",
+        "translation": "chicken meat; bird meat"
+    },
+    {
+        "_id": 556,
+        "kanji": "\u6b64\u308c",
+        "furigana": "\u3053",
+        "translation": "this (indicating an item near the speaker, the action of the speaker, or the current topic)"
+    },
+    {
+        "_id": 557,
+        "kanji": "\u6b64\u51e6",
+        "furigana": "\u3053\u3053",
+        "translation": "here (place physically close to the speaker, place pointed by the speaker while explaining); this place"
+    },
+    {
+        "_id": 558,
+        "kanji": "\u524d",
+        "furigana": "\u307e\u3048",
+        "translation": "ago; before (some event); previously; (minutes) to (the hour)"
+    },
+    {
+        "_id": 559,
+        "kanji": "\u5982\u4f55",
+        "furigana": "\u3069\u3046",
+        "translation": "how; in what way; how about"
+    },
+    {
+        "_id": 560,
+        "kanji": "\u65b9",
+        "furigana": "\u304b\u305f",
+        "translation": "direction; way"
+    },
+    {
+        "_id": 561,
+        "kanji": "\u672a\u3060",
+        "furigana": "\u307e",
+        "translation": "as yet; hitherto; only; still"
+    },
+    {
+        "_id": 562,
+        "kanji": "\u4f55\u6642",
+        "furigana": "\u3044\u3064",
+        "translation": "when; how soon"
+    },
+    {
+        "_id": 563,
+        "kanji": "\u4ed6",
+        "furigana": "\u307b\u304b",
+        "translation": "other (place, thing, person); the rest"
+    },
+    {
+        "_id": 564,
+        "kanji": "\u6b21",
+        "furigana": "\u3064\u304e",
+        "translation": "next; following; subsequent"
+    },
+    {
+        "_id": 565,
+        "kanji": "\u4f55\u65b9",
+        "furigana": "\u3069\u3061\u3089",
+        "translation": "which way; which direction; where"
+    },
+    {
+        "_id": 566,
+        "kanji": "\u8ab0\u304b",
+        "furigana": "\u3060\u308c",
+        "translation": "someone; somebody"
+    },
+    {
+        "_id": 567,
+        "kanji": "\u958b\u304f",
+        "furigana": "\u3042",
+        "translation": "to open (e.g. doors)"
+    },
+    {
+        "_id": 568,
+        "kanji": "\u4e0b",
+        "furigana": "\u3057\u305f",
+        "translation": "below; down; under; younger (e.g. daughter)"
+    },
+    {
+        "_id": 569,
+        "kanji": "\u7136\u3057\u3066",
+        "furigana": "\u305d",
+        "translation": "and; and then; thus; and now; and finally"
+    },
+    {
+        "_id": 570,
+        "kanji": "\u5176\u308c\u304b\u3089",
+        "furigana": "\u305d",
+        "translation": "and then; after that"
+    },
+    {
+        "_id": 571,
+        "kanji": "\u5176\u308c\u3067\u306f",
+        "furigana": "\u305d",
+        "translation": "well then ..."
+    },
+    {
+        "_id": 572,
+        "kanji": "\u660e\u5f8c\u65e5",
+        "furigana": "\u3042\u3055\u3063\u3066",
+        "translation": "day after tomorrow"
+    },
+    {
+        "_id": 573,
+        "kanji": "\u4f55\u308c",
+        "furigana": "\u3069",
+        "translation": "which (of three or more)"
+    },
+    {
+        "_id": 574,
+        "kanji": "\u4e8c\u5341\u6b73",
+        "furigana": "\u306f\u305f\u3061",
+        "translation": "20 years old"
+    },
+    {
+        "_id": 575,
+        "kanji": "\u5f7c\u65b9",
+        "furigana": "\u3042\u3061\u3089",
+        "translation": "that way (direction distant from both speaker and listener); over there; yonder"
+    },
+    {
+        "_id": 576,
+        "kanji": "\u6e29\u3044",
+        "furigana": "\u306c\u308b",
+        "translation": "lukewarm; tepid"
+    },
+    {
+        "_id": 577,
+        "kanji": "\u56db\u65e5",
+        "furigana": "\u3088\u3063\u304b",
+        "translation": "fourth day of the month"
+    },
+    {
+        "_id": 578,
+        "kanji": "\u4e03\u65e5",
+        "furigana": "\u306a\u306e\u304b",
+        "translation": "the seventh day of the month"
+    },
+    {
+        "_id": 579,
+        "kanji": "\u7136\u3046\u3057\u3066",
+        "furigana": "\u305d",
+        "translation": "and; like that"
+    },
+    {
+        "_id": 580,
+        "kanji": "\u74e6",
+        "furigana": "\u30b0\u30e9\u30e0",
+        "translation": "gram; gramme"
+    },
+    {
+        "_id": 581,
+        "kanji": "\u74e9",
+        "furigana": "\u30ad\u30ed\u30b0\u30e9\u30e0",
+        "translation": "kilogram; kilogramme"
+    },
+    {
+        "_id": 582,
+        "kanji": "\u76f4\u3050\u306b",
+        "furigana": "\u3059",
+        "translation": "immediately; right away; at once; instantly"
+    },
+    {
+        "_id": 583,
+        "kanji": "\u4e00\u6708",
+        "furigana": "\u3072\u3068\u3064\u304d",
+        "translation": "one month"
+    },
+    {
+        "_id": 584,
+        "kanji": "\u79cb",
+        "furigana": "\u3042\u304d",
+        "translation": "autumn; fall"
+    },
+    {
+        "_id": 585,
+        "kanji": "\u71d0\u5bf8",
+        "furigana": "\u71d0\u5bf8\u30de\u30c3\u30c1",
+        "translation": "match (to light fire with)"
+    },
+    {
+        "_id": 586,
+        "kanji": "\u5b57\u5f15",
+        "furigana": "\u3058\u3073\u304d",
+        "translation": "dictionary"
+    },
+    {
+        "_id": 587,
+        "kanji": "\u5496\u54e9",
+        "furigana": "\u5496\u54e9\u30ab\u30ec\u30fc",
+        "translation": "curry"
+    },
+    {
+        "_id": 588,
+        "kanji": "\u4e09",
+        "furigana": "\u30b5\u30f3",
+        "translation": "three"
+    }
 ]

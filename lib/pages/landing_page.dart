@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import '../pages/quiz_page.dart';
+import '../pages/menu_page.dart';
 
 class LandingPage extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
+   Widget build(BuildContext context) {
     return new Material(
       color: Colors.greenAccent,
       child: new InkWell(
         onTap: () => Navigator.of(context).push(new MaterialPageRoute(
-            builder: (BuildContext context) => new QuizPage())),
+            builder: (BuildContext context) => new MenuPage())),
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[

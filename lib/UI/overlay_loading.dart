@@ -18,7 +18,7 @@ class OverlayLoadingState extends State<OverlayLoading>
   @override
   void initState() {
     _iconAnimationController = new AnimationController(
-        duration: new Duration(seconds: 2), vsync: this);
+        duration: new Duration(seconds: 5), vsync: this);
     _iconAnimation = new CurvedAnimation(
         parent: _iconAnimationController, curve: Curves.elasticOut);
     _iconAnimation.addListener(() => this.setState(() {}));

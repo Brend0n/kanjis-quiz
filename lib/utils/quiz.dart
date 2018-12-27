@@ -11,7 +11,7 @@ class Quiz {
 
   factory Quiz.fromJson(List<dynamic> parsedJson) {
     List<Kanji> kanjis = new List<Kanji>();
-    for (int i = 0; i < parsedJson.length; i++) {
+    for (int i = 0; i < 5; i++) {
       Kanji newKanji = new Kanji(parsedJson[i]['kanji'],
           parsedJson[i]['furigana'], parsedJson[i]['translation']);
       kanjis.add(newKanji);

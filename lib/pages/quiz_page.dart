@@ -15,14 +15,18 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 
 class QuizPage extends StatefulWidget {
+  final String file;
   @override
   State createState() => new QuizPageState();
+
+  const QuizPage({Key key, this.file}) : super(key: key);
 }
 
 class QuizPageState extends State<QuizPage> {
   bool overlayVisible = false;
   bool answer = true;
   bool isLoading = true;
+  bool showFurigana = true;
   int score = 0;
   String kanji;
   Kanji currentKanji;
@@ -33,16 +37,18 @@ class QuizPageState extends State<QuizPage> {
       new List(); //List to keep all the answers for this question
 
   // Load the JSON file
-  Future loadStudent() async {
-    String jsonString = await rootBundle.loadString('assets/kanji_n5.json');
-    ;
+  Future loadKanji() async {
+    String file = widget.file;
+
+    String jsonString = await rootBundle.loadString(file);
+
     final jsonResponse = json.decode(jsonString);
     return jsonResponse;
   }
 
   @override
   void initState() {
-    loadStudent().then((onValue) {
+    loadKanji().then((onValue) {
       // once Json file loaded create the new Quiz object
       myQuiz = Quiz.fromJson(onValue);
       currentKanji = myQuiz.nextKanji;

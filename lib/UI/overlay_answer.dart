@@ -38,7 +38,7 @@ class OverlayAnswerState extends State<OverlayAnswer>
   @override
   Widget build(BuildContext context) {
     return new Material(
-      color: Colors.black54,
+      color: Colors.black87,
       child: new InkWell(
         onTap: widget._onTap,
         child: new Column(
@@ -65,7 +65,7 @@ class OverlayAnswerState extends State<OverlayAnswer>
                       " \n" +
                       widget._correctAnswer.translation,
               style: new TextStyle(
-                  color: widget._isCorrect ? Colors.white : Colors.red,
+                  color: widget._isCorrect ? Colors.white : Colors.red[800],
                   fontSize: 40.0),
               textAlign: TextAlign.center,
             ),
