@@ -57,10 +57,14 @@ You can check if the Plugins are correctly working by:
 
 You need to either start an emulator (ios or android), or connect a phone with the developper mode enabled to your computer.
 You can check if you see the phone connected on the bottom right corner of the VSCode window. You can also click this area to start an emulator.
-
+To run the app:
 ```
 $ flutter run
 ```
+
+ * To use hot reload, save your change and hit the 'r' key.
+ * To perform a hot restart hit the 'shift' + 'r' keys
+
 
 # Data
 
